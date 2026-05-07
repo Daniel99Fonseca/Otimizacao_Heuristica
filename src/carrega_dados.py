@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 # ============================================================
 # Módulo: carrega_dados.py
@@ -6,7 +7,14 @@ import pandas as pd
 #            candidatas para cada playlist.
 # ============================================================
 
-CAMINHO_DATASET = "data/dataset_playlist.csv"
+# 1. Localização do ficheiro atual (C:\...\Otimizacao_Heuristica\src)
+PASTA_SRC = os.path.dirname(os.path.abspath(__file__))
+
+# 2. Sobe um nível para chegar à raiz do projeto (C:\...\Otimizacao_Heuristica)
+RAIZ_PROJETO = os.path.dirname(PASTA_SRC)
+
+# 3. Constrói o caminho para a pasta data que está na raiz
+CAMINHO_DATASET = os.path.join(RAIZ_PROJETO, 'data', 'dataset_playlist.csv')
 
 # Duração mínima e máxima de cada playlist (em milissegundos)
 DURACAO_MIN_MS = 32 * 60 * 1000   # 32 minutos
