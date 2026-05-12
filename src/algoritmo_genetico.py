@@ -164,9 +164,37 @@ def reparar_conflitos(cromossoma, df):
     playlist. Este mecanismo de reparação:
       1. Detecta músicas duplicadas entre playlists
       2. Remove os duplicados (mantém na primeira playlist onde aparece)
-      3. Tenta repor músicas em playlists que ficaram curtas (< 32 min)
+      3. Repõe músicas em playlists curtas (< 32 min), usando apenas
+         candidatas que satisfazem as restrições específicas da playlist.
     Devolve o cromossoma reparado e o pool de disponíveis actualizado.
+    Garante que os filhos gerados pelo crossover são admissíveis.
     """
+    from src.funcao_objetivo import (
+        verificar_pl1, verificar_pl2, verificar_pl3, verificar_pl4
+    )
+
+    # Filtros de candidatas por playlist — só músicas que respeitam
+    # as restrições individuais de cada playlist entram na reposição
+    def candidatas_para(pl, disponiveis_df):
+        if pl == 'PL1':
+            return disponiveis_df[disponiveis_df['instrumentalness'] >= 0.66]
+        elif pl == 'PL2':
+            return disponiveis_df[disponiveis_df['tempo'] >= 120]
+        elif pl == 'PL3':
+            # Para PL3 usamos qualquer música (a admissibilidade
+            # das sub-restrições é verificada no final com verificar_pl3)
+            return disponiveis_df
+        else:  # PL4
+            # Preferir músicas com valence alto para manter a restrição
+            return disponiveis_df.sort_values('valence', ascending=False)
+
+    verificadores = {
+        'PL1': verificar_pl1,
+        'PL2': verificar_pl2,
+        'PL3': verificar_pl3,
+        'PL4': verificar_pl4,
+    }
+
     # 1. Detectar e resolver duplicados
     contagem = {}
     for pl, ids in cromossoma.items():
@@ -180,26 +208,42 @@ def reparar_conflitos(cromossoma, df):
 
     # 2. Reconstruir pool de disponíveis
     ids_usados  = set(mid for ids in cromossoma.values() for mid in ids)
-    disponiveis = list(df[~df['track_id'].isin(ids_usados)]['track_id'])
+    disponiveis_df = df[~df['track_id'].isin(ids_usados)].sort_values('popularity', ascending=False)
 
-    # 3. Repor músicas em playlists que ficaram curtas
-    candidatas_disp = df[df['track_id'].isin(disponiveis)].sort_values('popularity', ascending=False)
-
+    # 3. Repor músicas em playlists que ficaram curtas,
+    #    garantindo que as restrições específicas são respeitadas
     for pl in ['PL1', 'PL2', 'PL3', 'PL4']:
         ids_pl     = cromossoma[pl]
         duracao_ms = df[df['track_id'].isin(ids_pl)]['duration_ms'].sum()
 
-        for _, row in candidatas_disp.iterrows():
+        if duracao_ms >= DURACAO_MIN_MS:
+            continue  # playlist já está com duração suficiente
+
+        # Filtrar candidatas que respeitam as restrições da playlist
+        cands = candidatas_para(pl, disponiveis_df)
+
+        for _, row in cands.iterrows():
             if duracao_ms >= DURACAO_MIN_MS:
                 break
             if row['track_id'] in ids_usados:
                 continue
-            if duracao_ms + row['duration_ms'] <= DURACAO_MAX_MS:
+            if duracao_ms + row['duration_ms'] > DURACAO_MAX_MS:
+                continue
+
+            # Testar se a música pode entrar sem violar as restrições
+            ids_teste = ids_pl + [row['track_id']]
+            ok_pl, _  = verificadores[pl](ids_teste, df)
+
+            if ok_pl or pl == 'PL3':
+                # PL3 é verificada no final pois as sub-restrições
+                # são acumulativas (minutos acústicos + nº ao vivo)
                 ids_pl.append(row['track_id'])
                 ids_usados.add(row['track_id'])
                 duracao_ms += row['duration_ms']
 
         cromossoma[pl] = ids_pl
+        # Actualizar o DataFrame de disponíveis após cada playlist
+        disponiveis_df = df[~df['track_id'].isin(ids_usados)].sort_values('popularity', ascending=False)
 
     # 4. Pool final actualizado
     ids_usados  = set(mid for ids in cromossoma.values() for mid in ids)
@@ -312,8 +356,19 @@ def algoritmo_genetico(df, n_cromossomas, n_geracoes, prob_mutacao,
             filho1_t = mutacao(filho1_t, df, prob_mutacao)
             filho2_t = mutacao(filho2_t, df, prob_mutacao)
 
+            # Verificar admissibilidade dos filhos antes de os aceitar.
+            # Se um filho não for admissível, substitui-se pelo pai 1
+            # (que é garantidamente admissível) para não perder diversidade.
+            adm1, _ = verificar_admissibilidade(filho1_t[0], df)
+            if not adm1:
+                filho1_t = populacao[idx_pai1]
+
             nova_populacao.append(filho1_t)
+
             if len(nova_populacao) < n_cromossomas:
+                adm2, _ = verificar_admissibilidade(filho2_t[0], df)
+                if not adm2:
+                    filho2_t = populacao[idx_pai2]
                 nova_populacao.append(filho2_t)
 
         # Substituição geracional completa
