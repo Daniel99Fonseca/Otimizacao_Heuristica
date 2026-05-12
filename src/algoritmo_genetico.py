@@ -37,7 +37,7 @@ from src.heuristica_construtiva import (
     construir_pl1, construir_pl2, construir_pl3, construir_pl4,
     DURACAO_MIN_ACUSTICAS_MS, MIN_MUSICAS_AOVIVO
 )
-from src.funcao_objetivo import calcular_popularidade
+from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade
 from src.vizinhanca import movimento_substituicao
 from src.carrega_dados import (
     filtrar_pl1, filtrar_pl2, filtrar_pl3_acusticas,
