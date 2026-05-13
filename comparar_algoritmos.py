@@ -4,7 +4,7 @@ random.seed(42)
 
 from src.carrega_dados import carregar_dataset
 from src.heuristica_construtiva import heuristica_construtiva
-from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade
+from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade, guardar_melhor_solucao
 from src.simulated_annealing import simulated_annealing, M_ENUNCIADO, M_ALTERNATIVO
 from src.algoritmo_genetico import algoritmo_genetico
 
@@ -124,3 +124,6 @@ for nome, (sol, pop) in resultados.items():
 df_comp = pd.DataFrame(linhas)
 df_comp.to_csv("output/comparacao_algoritmos.csv", index=False)
 print("\nTabela de comparação guardada em: output/comparacao_algoritmos.csv")
+
+guardar_melhor_solucao(sol_sa_alt,  df, "output/melhor_sa.csv")
+guardar_melhor_solucao(sol_ag,      df, "output/melhor_ag.csv")
