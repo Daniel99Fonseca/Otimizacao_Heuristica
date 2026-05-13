@@ -28,7 +28,6 @@ TAXA_ARREFECIMENTO = 0.3
 # Esquema alternativo (mais iterações para explorar melhor)
 M_ALTERNATIVO = [50, 50, 50, 50, 50, 30, 30, 30, 20, 20]
 
-
 def simulated_annealing(solucao_inicial, df, musicas_disponiveis,
                         caminho_output, esquema_M=None):
     """
@@ -107,7 +106,7 @@ def simulated_annealing(solucao_inicial, df, musicas_disponiveis,
                 prob_aceitacao = 1.0
             else:
                 # Piora: aceitar com probabilidade exp(delta / T)
-                prob_aceitacao = np.exp(delta / temperatura)
+                prob_aceitacao = np.exp(-delta / temperatura)
                 aceite         = random.random() < prob_aceitacao
 
             # Registar no log
