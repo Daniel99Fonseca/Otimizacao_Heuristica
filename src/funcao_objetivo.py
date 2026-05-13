@@ -180,3 +180,28 @@ def verificar_admissibilidade(solucao, df):
         mensagens.append(msg_pl)
 
     return admissivel, mensagens
+
+def guardar_melhor_solucao(solucao, df, caminho_output):
+    """
+    Guarda as músicas da melhor solução num CSV,
+    organizado por playlist, com as colunas relevantes.
+    """
+    linhas = []
+    for pl, ids in solucao.items():
+        musicas = df[df['track_id'].isin(ids)]
+        for _, row in musicas.iterrows():
+            linhas.append({
+                'playlist'         : pl,
+                'track_name'       : row['track_name'],
+                'artists'          : row['artists'],
+                'popularity'       : row['popularity'],
+                'duracao_min'      : round(row['duration_ms'] / 60000, 2),
+                'instrumentalness' : round(row['instrumentalness'], 3),
+                'tempo'            : round(row['tempo'], 1),
+                'danceability'     : round(row['danceability'], 3),
+                'liveness'         : round(row['liveness'], 3),
+                'valence'          : round(row['valence'], 3),
+                'is_acoustic'      : row['is_acoustic'],
+            })
+    pd.DataFrame(linhas).to_csv(caminho_output, index=False)
+    print(f"Melhor solução guardada em: {caminho_output}")

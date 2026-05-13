@@ -3,8 +3,9 @@ random.seed(42)
 
 from src.carrega_dados import carregar_dataset
 from src.heuristica_construtiva import heuristica_construtiva
-from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade
+from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade, guardar_melhor_solucao
 from src.simulated_annealing import simulated_annealing, M_ENUNCIADO, M_ALTERNATIVO
+
 
 # ============================================================
 # main_sa.py — Script principal do Simulated Annealing
@@ -75,3 +76,5 @@ print(f"Solução inicial (heurística):     {pop_inicial}")
 print(f"SA — Esquema enunciado:           {melhor_pop_1}  ({melhor_pop_1 - pop_inicial:+d})")
 print(f"SA — Esquema alternativo:         {melhor_pop_2}  ({melhor_pop_2 - pop_inicial:+d})")
 
+# Guardar músicas da melhor solução encontrada (esquema alternativo)
+guardar_melhor_solucao(melhor_sol_2, df, "output/melhor_sa.csv")

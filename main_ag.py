@@ -3,7 +3,7 @@ random.seed(42)
 
 from src.carrega_dados import carregar_dataset
 from src.algoritmo_genetico import algoritmo_genetico
-from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade
+from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade, guardar_melhor_solucao
 from src.heuristica_construtiva import heuristica_construtiva
 
 # ============================================================
@@ -64,3 +64,5 @@ print("=" * 60)
 print(f"Heurística construtiva: {pop_heuristica}")
 print(f"Algoritmo Genético:     {melhor_pop}  ({melhor_pop - pop_heuristica:+d})")
 print(f"Solução admissível:     {adm}")
+
+guardar_melhor_solucao(melhor_solucao, df, "output/melhor_ag.csv")
