@@ -1,0 +1,42 @@
+playlist,track_name,artists,popularity,duracao_min,instrumentalness,tempo,danceability,liveness,valence,is_acoustic
+PL1,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL1,Brown Sleep Noise,Sleep Miracle,80,4.13,1.0,59.5,0.056,0.112,0.06,False
+PL1,Experience,Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani,79,5.26,0.961,92.5,0.447,0.07,0.036,False
+PL1,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
+PL1,K.,Cigarettes After Sex,78,5.33,0.846,93.7,0.454,0.137,0.327,False
+PL1,Sunsetz,Cigarettes After Sex,78,3.59,0.795,75.4,0.405,0.097,0.131,False
+PL1,Monrovia,Prescient Liquids,62,3.5,0.933,70.3,0.066,0.097,0.041,False
+PL1,Can We Just Vibe?,Talented Mr Tipsy,48,2.74,0.844,170.0,0.553,0.173,0.821,False
+PL1,low key jazztone,Codename Chinadoll,25,2.07,0.744,80.0,0.762,0.089,0.178,False
+PL2,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
+PL2,I'm Good (Blue),David Guetta;Bebe Rexha,98,2.92,0.0,128.0,0.561,0.371,0.304,False
+PL2,I Ain't Worried,OneRepublic,96,2.47,0.001,140.0,0.704,0.055,0.825,False
+PL2,Glimpse of Us,Joji,94,3.89,0.0,169.9,0.44,0.141,0.268,False
+PL2,Another Love,Tom Odell,93,4.07,0.0,122.8,0.445,0.094,0.131,False
+PL2,Super Freaky Girl,Nicki Minaj,92,2.85,0.0,133.0,0.95,0.309,0.912,False
+PL2,There Is a Light That Never Goes Out - 2011 Remaster,The Smiths,81,4.08,0.0,136.2,0.523,0.136,0.876,False
+PL2,Priceless,Bhalwaan;Signature By SB,65,1.8,0.0,146.9,0.665,0.282,0.634,False
+PL2,Moonwalker,Fabvl,57,3.89,0.0,141.0,0.522,0.363,0.58,False
+PL2,Formula 1 Theme - Hardstyle Version,TCM,54,2.92,0.001,149.9,0.383,0.121,0.23,False
+PL2,VANISH,Dro Kenji,53,2.18,0.0,147.0,0.749,0.116,0.471,False
+PL3,Hold On,Chord Overstreet,82,3.31,0.0,119.9,0.618,0.083,0.167,True
+PL3,I'm Yours,Jason Mraz,80,4.05,0.0,151.0,0.703,0.097,0.712,True
+PL3,Wish You Were Here,Pink Floyd,77,5.58,0.011,122.9,0.481,0.832,0.375,False
+PL3,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,False
+PL3,Pano,Zack Tabudlo,75,4.24,0.015,174.8,0.375,0.191,0.415,True
+PL3,Give Me Your Forever,Zack Tabudlo,74,4.08,0.0,99.9,0.627,0.093,0.301,True
+PL3,Call on Me - Radio Mix,Eric Prydz,74,2.86,0.001,126.3,0.597,0.839,0.447,False
+PL3,Long Tall Sally (The Thing),Little Richard,64,2.12,0.0,184.7,0.474,0.093,0.888,False
+PL3,Girassol (Ao Vivo),Cidade Negra,41,4.05,0.0,161.9,0.467,0.96,0.588,False
+PL4,La Bachata,Manuel Turizo,98,2.71,0.0,125.0,0.835,0.218,0.85,False
+PL4,Me Porto Bonito,Bad Bunny;Chencho Corleone,97,2.98,0.0,92.0,0.911,0.093,0.425,False
+PL4,As It Was,Harry Styles,95,2.79,0.001,173.9,0.52,0.311,0.662,False
+PL4,Clean White Noise - Loopable with no fade,White Noise Baby Sleep;White Noise for Babies,85,1.5,1.0,0.0,0.0,0.111,0.0,False
+PL4,Alien Blues,Vundabar,82,2.6,0.908,82.3,0.467,0.088,0.433,False
+PL4,American Boy,Estelle;Kanye West,78,4.75,0.0,117.9,0.727,0.07,0.512,False
+PL4,Don't You Want Me,The Human League,76,3.95,0.0,117.7,0.731,0.214,0.958,False
+PL4,Bad To Me,Wizkid,73,2.95,0.014,110.0,0.859,0.101,0.908,False
+PL4,Dead Girl Walking (Reprise),Barrett Wilbert Weed;Michelle Duffy;Daniel Cooney;Ryan McCartan;Elle McLemore,59,2.78,0.0,110.3,0.745,0.059,0.706,False
+PL4,KILL THEM,Ethan Ross;Max Volante,50,1.3,0.004,126.0,0.728,0.122,0.403,False
+PL4,Have A Nice Day,Waa Wei,49,4.39,0.001,120.0,0.711,0.137,0.806,False
+PL4,Murugane - Gsivachidambaram,Sirkazhi G. Sivachidambaram,30,1.91,0.0,109.5,0.529,0.108,0.666,False

@@ -1,0 +1,43 @@
+playlist,track_name,artists,popularity,duracao_min,instrumentalness,tempo,danceability,liveness,valence,is_acoustic
+PL1,Clean White Noise - Loopable with no fade,White Noise Baby Sleep;White Noise for Babies,85,1.5,1.0,0.0,0.0,0.111,0.0,False
+PL1,YKWIM?,Yot Club,84,3.55,0.873,123.7,0.372,0.287,0.228,False
+PL1,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL1,Alien Blues,Vundabar,82,2.6,0.908,82.3,0.467,0.088,0.433,False
+PL1,Brown Sleep Noise,Sleep Miracle,80,4.13,1.0,59.5,0.056,0.112,0.06,False
+PL1,Experience,Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani,79,5.26,0.961,92.5,0.447,0.07,0.036,False
+PL1,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
+PL1,K.,Cigarettes After Sex,78,5.33,0.846,93.7,0.454,0.137,0.327,False
+PL1,Shootout,Izzamuzzic;Julien Marchal,78,4.92,0.906,87.0,0.663,0.109,0.553,False
+PL2,Unholy (feat. Kim Petras),Sam Smith;Kim Petras,100,2.62,0.0,131.1,0.714,0.266,0.238,False
+PL2,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
+PL2,La Bachata,Manuel Turizo,98,2.71,0.0,125.0,0.835,0.218,0.85,False
+PL2,I'm Good (Blue),David Guetta;Bebe Rexha,98,2.92,0.0,128.0,0.561,0.371,0.304,False
+PL2,I Ain't Worried,OneRepublic,96,2.47,0.001,140.0,0.704,0.055,0.825,False
+PL2,As It Was,Harry Styles,95,2.79,0.001,173.9,0.52,0.311,0.662,False
+PL2,Glimpse of Us,Joji,94,3.89,0.0,169.9,0.44,0.141,0.268,False
+PL2,Another Love,Tom Odell,93,4.07,0.0,122.8,0.445,0.094,0.131,False
+PL2,Neverita,Bad Bunny,93,2.89,0.0,122.0,0.876,0.143,0.428,False
+PL2,Sweater Weather,The Neighbourhood,93,4.01,0.018,124.1,0.612,0.101,0.398,False
+PL2,Super Freaky Girl,Nicki Minaj,92,2.85,0.0,133.0,0.95,0.309,0.912,False
+PL3,Me Porto Bonito,Bad Bunny;Chencho Corleone,97,2.98,0.0,92.0,0.911,0.093,0.425,False
+PL3,Hold On,Chord Overstreet,82,3.31,0.0,119.9,0.618,0.083,0.167,True
+PL3,I'm Yours,Jason Mraz,80,4.05,0.0,151.0,0.703,0.097,0.712,True
+PL3,Wish You Were Here,Pink Floyd,77,5.58,0.011,122.9,0.481,0.832,0.375,False
+PL3,Before I Forget,Slipknot,77,4.64,0.0,134.7,0.291,0.886,0.348,False
+PL3,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,False
+PL3,Pano,Zack Tabudlo,75,4.24,0.015,174.8,0.375,0.191,0.415,True
+PL3,Give Me Your Forever,Zack Tabudlo,74,4.08,0.0,99.9,0.627,0.093,0.301,True
+PL3,Call on Me - Radio Mix,Eric Prydz,74,2.86,0.001,126.3,0.597,0.839,0.447,False
+PL4,Sex Sounds,Lil Tjay,76,2.71,0.0,130.0,0.857,0.108,0.366,False
+PL4,Walk with Me In Hell,Lamb of God,61,5.19,0.007,110.6,0.286,0.309,0.118,False
+PL4,Perfect (feat. Haris),Lucas & Steve;Haris,59,2.94,0.0,118.0,0.751,0.095,0.532,False
+PL4,kit,julie,56,3.73,0.581,153.7,0.234,0.118,0.294,False
+PL4,我武者羅 (TV size),CHiCO with HoneyWorks,49,1.5,0.0,97.0,0.509,0.4,0.755,False
+PL4,Vaadi Vaadi Naattu Katta,Vidyasagar;Shankar Mahadevan;Sujatha,49,4.43,0.001,105.3,0.578,0.082,0.64,False
+PL4,Peach Sky,Moodula,48,2.07,0.899,84.9,0.497,0.117,0.205,False
+PL4,Buzina - Ao Vivo,Diego & Victor Hugo,47,2.72,0.0,169.6,0.479,0.356,0.735,False
+PL4,Bass Rani,Nucleya,43,2.44,0.0,108.1,0.768,0.073,0.248,False
+PL4,Flor de Capomo,Julio Preciado Y Su Banda Perla Del Pacifico,41,2.15,0.0,125.3,0.739,0.111,0.994,False
+PL4,Roll Your Hands,Debbie Doo,32,1.21,0.0,155.9,0.741,0.179,0.993,False
+PL4,Round and Round We Go,Debbie Doo,27,1.24,0.0,116.0,0.769,0.03,0.991,False
+PL4,TROPA DA MAINSTREET SO TEM MALVADAO,mc jhenny;DJ Ruan da VK;Rafael Foxx;IURY FERNANDES,22,1.96,0.0,149.9,0.893,0.02,0.989,False
