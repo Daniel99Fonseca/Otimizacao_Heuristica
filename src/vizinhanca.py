@@ -1,12 +1,3 @@
-
-# ============================================================
-# Módulo: vizinhanca.py
-# Descrição: Alínea c) — Define a estrutura de vizinhança.
-# Movimento: Troca de uma música entre duas playlists
-#            (swap inter-playlist) ou substituição de uma
-#            música de uma playlist por outra não usada.
-# ============================================================
-
 import random
 import pandas as pd
 

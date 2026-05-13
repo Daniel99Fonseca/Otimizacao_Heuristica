@@ -98,10 +98,10 @@ def simulated_annealing(solucao_inicial, df, musicas_disponiveis,
                 continue
 
             f_vizinho = calcular_popularidade(nova_sol, df)
-            delta     = f_vizinho - f_atual   # positivo = melhoria
+            delta     = f_atual - f_vizinho   # negativo = melhoria
 
             # --- Critério de aceitação ---
-            if delta > 0:
+            if delta < 0:
                 # Melhoria: aceitar sempre
                 aceite         = True
                 prob_aceitacao = 1.0

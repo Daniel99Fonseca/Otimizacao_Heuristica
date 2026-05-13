@@ -77,7 +77,6 @@ def construir_pl2(df, ids_usados):
 
     return playlist
 
-
 def construir_pl3(df, ids_usados):
     """
     Constrói a PL3: a mais complexa, com duas sub-restrições.
