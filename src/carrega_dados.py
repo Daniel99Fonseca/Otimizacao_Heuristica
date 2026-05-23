@@ -71,8 +71,13 @@ def filtrar_pl1(df):
     PL1: instrumentalness >= 0.66
     Devolve apenas as músicas candidatas à PL1.
     """
-    return df[df['instrumentalness'] >= 0.66].copy()
-
+    return df[
+        (df['tempo'] > 0) &           # exclui white noise (tempo = 0)
+        (df['instrumentalness'] >= 0.66) &
+        (df['danceability'] > 0) &    # exclui sons ambiente
+        (df['energy'] > 0)            # exclui faixas completamente planas
+    ].copy()
+    
 
 def filtrar_pl2(df):
     """
@@ -110,4 +115,12 @@ def filtrar_pl4(df):
     Por isso devolvemos o dataset completo ordenado por valence
     descendente para facilitar a construção.
     """
-    return df.sort_values('valence', ascending=False).copy()
+    """
+    Basicamente estou aqui a tentar resolver o problema de aparecerem musicas do género "White Noise", por muito q não esteja a quebrar
+    nenhuma regra não deixa de não fazer sentido nenhum
+    """
+    return df[
+        (df['tempo'] > 0) &           # exclui white noise (tempo = 0)
+        (df['danceability'] > 0) &    # exclui sons ambiente
+        (df['energy'] > 0)            # exclui faixas completamente planas
+    ].sort_values('valence', ascending=False)

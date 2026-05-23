@@ -1,17 +1,17 @@
 algoritmo,playlist,n_musicas,duracao_min,popularidade,pop_total,admissivel
-Heurística construtiva,PL1,9,33.15,727,2805,True
-Heurística construtiva,PL2,11,34.53,1051,2805,True
-Heurística construtiva,PL3,9,34.38,712,2805,True
-Heurística construtiva,PL4,12,32.03,315,2805,True
-SA — enunciado,PL1,9,33.15,727,2805,True
-SA — enunciado,PL2,11,34.53,1051,2805,True
-SA — enunciado,PL3,9,34.38,712,2805,True
-SA — enunciado,PL4,12,32.03,315,2805,True
-SA — alternativo,PL1,9,33.81,611,3008,True
-SA — alternativo,PL2,11,34.38,882,3008,True
-SA — alternativo,PL3,9,32.93,643,3008,True
-SA — alternativo,PL4,12,34.6,872,3008,True
-AG,PL1,9,34.49,727,3140,True
-AG,PL2,11,34.53,1051,3140,True
-AG,PL3,9,34.38,712,3140,True
-AG,PL4,13,33.93,650,3140,True
+Heurística construtiva,PL1,9,34.34,719,2801,True
+Heurística construtiva,PL2,11,34.53,1051,2801,True
+Heurística construtiva,PL3,9,34.38,712,2801,True
+Heurística construtiva,PL4,12,32.97,319,2801,True
+SA — enunciado,PL1,9,33.44,702,2852,True
+SA — enunciado,PL2,11,34.65,640,2852,True
+SA — enunciado,PL3,9,34.72,714,2852,True
+SA — enunciado,PL4,12,34.72,796,2852,True
+SA — alternativo,PL1,9,33.97,672,3173,True
+SA — alternativo,PL2,11,34.31,819,3173,True
+SA — alternativo,PL3,9,34.01,702,3173,True
+SA — alternativo,PL4,12,34.05,980,3173,True
+AG,PL1,9,34.34,719,3134,True
+AG,PL2,11,34.53,1051,3134,True
+AG,PL3,9,34.38,712,3134,True
+AG,PL4,13,34.62,652,3134,True

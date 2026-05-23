@@ -1,42 +1,42 @@
 playlist,track_name,artists,popularity,duracao_min,instrumentalness,tempo,danceability,liveness,valence,is_acoustic
-PL1,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL1,YKWIM?,Yot Club,84,3.55,0.873,123.7,0.372,0.287,0.228,False
 PL1,Alien Blues,Vundabar,82,2.6,0.908,82.3,0.467,0.088,0.433,False
 PL1,Brown Sleep Noise,Sleep Miracle,80,4.13,1.0,59.5,0.056,0.112,0.06,False
 PL1,Experience,Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani,79,5.26,0.961,92.5,0.447,0.07,0.036,False
-PL1,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
 PL1,K.,Cigarettes After Sex,78,5.33,0.846,93.7,0.454,0.137,0.327,False
 PL1,Sunsetz,Cigarettes After Sex,78,3.59,0.795,75.4,0.405,0.097,0.131,False
-PL1,Mama Said Knock You Out,LL COOL J,64,4.83,0.674,102.4,0.791,0.255,0.619,False
-PL1,Owharoa,Little Symphony,26,1.65,0.798,80.0,0.104,0.604,0.307,False
+PL1,i was all over her,salvia palth,77,2.69,0.853,104.6,0.529,0.116,0.06,False
+PL1,Et øyeblikk,Tine Mydland,61,2.68,0.892,70.4,0.24,0.146,0.096,False
+PL1,Flight,Hans Zimmer;Nick Glennie-Smith;Junkie XL;Atli Örvarsson,53,4.14,0.834,79.6,0.131,0.073,0.068,False
 PL2,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
 PL2,I'm Good (Blue),David Guetta;Bebe Rexha,98,2.92,0.0,128.0,0.561,0.371,0.304,False
-PL2,I Ain't Worried,OneRepublic,96,2.47,0.001,140.0,0.704,0.055,0.825,False
-PL2,Glimpse of Us,Joji,94,3.89,0.0,169.9,0.44,0.141,0.268,False
 PL2,Another Love,Tom Odell,93,4.07,0.0,122.8,0.445,0.094,0.131,False
-PL2,There Is a Light That Never Goes Out - 2011 Remaster,The Smiths,81,4.08,0.0,136.2,0.523,0.136,0.876,False
-PL2,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,False
-PL2,Violent,carolesdaughter,72,2.26,0.0,130.0,0.797,0.124,0.411,False
-PL2,Gasoline,I Prevail,68,2.56,0.0,135.1,0.546,0.724,0.545,False
-PL2,Alive,Zeds Dead;MKLA,63,3.29,0.102,121.0,0.618,0.147,0.144,False
-PL2,Dreamland,Beautiful Sleep,59,2.77,0.852,139.8,0.145,0.108,0.036,False
-PL3,Heather,Conan Gray,87,3.3,0.0,102.1,0.357,0.322,0.27,False
+PL2,Sweater Weather,The Neighbourhood,93,4.01,0.018,124.1,0.612,0.101,0.398,False
+PL2,Your Love (9PM),ATB;Topic;A7S,79,2.5,0.0,126.0,0.669,0.115,0.517,False
+PL2,"Dil Ko Karaar Aaya (From ""Sukoon"")",Yasser Desai;Neha Kakkar;Rajat Nagpal,77,3.86,0.0,148.0,0.55,0.111,0.388,False
+PL2,Inside Out,Eve 6,69,3.66,0.0,175.7,0.483,0.367,0.691,False
+PL2,El Fin del Mundo,La La Love You;Axolotes Mexicanos,67,3.13,0.0,127.1,0.6,0.094,0.676,False
+PL2,Nike Ticks,YNG Martyr,64,1.7,0.0,188.2,0.779,0.092,0.525,False
+PL2,One Kiss (with Dua Lipa) - R3HAB Remix,Calvin Harris;Dua Lipa;R3HAB,58,3.18,0.0,126.9,0.59,0.059,0.133,False
+PL2,TROPA DA MAINSTREET SO TEM MALVADAO,mc jhenny;DJ Ruan da VK;Rafael Foxx;IURY FERNANDES,22,1.96,0.0,149.9,0.893,0.02,0.989,False
+PL3,Feliz Cumpleaños Ferxxo,Feid,87,2.61,0.0,95.0,0.87,0.293,0.566,False
 PL3,Hold On,Chord Overstreet,82,3.31,0.0,119.9,0.618,0.083,0.167,True
 PL3,I'm Yours,Jason Mraz,80,4.05,0.0,151.0,0.703,0.097,0.712,True
 PL3,Wish You Were Here,Pink Floyd,77,5.58,0.011,122.9,0.481,0.832,0.375,False
+PL3,Before I Forget,Slipknot,77,4.64,0.0,134.7,0.291,0.886,0.348,False
+PL3,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,False
 PL3,Pano,Zack Tabudlo,75,4.24,0.015,174.8,0.375,0.191,0.415,True
 PL3,Give Me Your Forever,Zack Tabudlo,74,4.08,0.0,99.9,0.627,0.093,0.301,True
 PL3,Call on Me - Radio Mix,Eric Prydz,74,2.86,0.001,126.3,0.597,0.839,0.447,False
-PL3,Girassol (Ao Vivo),Cidade Negra,41,4.05,0.0,161.9,0.467,0.96,0.588,False
-PL3,Padre Nuestro - Versión Remasterizada (Live),Los Fabulosos Cadillacs,33,2.6,0.0,99.9,0.589,0.907,0.882,False
+PL4,Unholy (feat. Kim Petras),Sam Smith;Kim Petras,100,2.62,0.0,131.1,0.714,0.266,0.238,False
 PL4,La Bachata,Manuel Turizo,98,2.71,0.0,125.0,0.835,0.218,0.85,False
 PL4,Me Porto Bonito,Bad Bunny;Chencho Corleone,97,2.98,0.0,92.0,0.911,0.093,0.425,False
+PL4,I Ain't Worried,OneRepublic,96,2.47,0.001,140.0,0.704,0.055,0.825,False
 PL4,As It Was,Harry Styles,95,2.79,0.001,173.9,0.52,0.311,0.662,False
+PL4,Glimpse of Us,Joji,94,3.89,0.0,169.9,0.44,0.141,0.268,False
 PL4,Super Freaky Girl,Nicki Minaj,92,2.85,0.0,133.0,0.95,0.309,0.912,False
-PL4,Clean White Noise - Loopable with no fade,White Noise Baby Sleep;White Noise for Babies,85,1.5,1.0,0.0,0.0,0.111,0.0,False
-PL4,American Boy,Estelle;Kanye West,78,4.75,0.0,117.9,0.727,0.07,0.512,False
-PL4,Don't You Want Me,The Human League,76,3.95,0.0,117.7,0.731,0.214,0.958,False
-PL4,Bad To Me,Wizkid,73,2.95,0.014,110.0,0.859,0.101,0.908,False
-PL4,Priceless,Bhalwaan;Signature By SB,65,1.8,0.0,146.9,0.665,0.282,0.634,False
-PL4,Taken for a Fool,The Strokes,58,3.39,0.011,137.0,0.569,0.226,0.885,False
-PL4,Moonwalker,Fabvl,57,3.89,0.0,141.0,0.522,0.363,0.58,False
-PL4,KILL THEM,Ethan Ross;Max Volante,50,1.3,0.004,126.0,0.728,0.122,0.403,False
+PL4,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL4,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
+PL4,Figure It Out,Royal Blood,67,3.06,0.007,108.0,0.658,0.216,0.69,False
+PL4,Los Tres De Zacatecas,Banda Autentica de Jerez,41,1.79,0.0,119.9,0.764,0.058,0.99,False
+PL4,Going on a Road Trip,CoComelon,39,1.7,0.0,120.0,0.942,0.066,0.935,False

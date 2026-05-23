@@ -251,15 +251,15 @@ def reparar_conflitos(cromossoma, df):
 
     return cromossoma, disponiveis
 
-
 def crossover(pai1_tuplo, pai2_tuplo, df):
     """
     Crossover ao nível das playlists (ponto de corte entre PL2 e PL3):
-      filho1 herda PL1+PL2 do pai1 e PL3+PL4 do pai2
-      filho2 herda PL1+PL2 do pai2 e PL3+PL4 do pai1
+    filho1 herda PL1+PL2 do pai1 e PL3+PL4 do pai2
+    filho2 herda PL1+PL2 do pai2 e PL3+PL4 do pai1
     Após o cruzamento, aplica reparação de conflitos.
     Devolve dois filhos como tuplos (cromossoma, disponiveis).
     """
+    
     pai1, _ = pai1_tuplo
     pai2, _ = pai2_tuplo
 
@@ -276,7 +276,6 @@ def crossover(pai1_tuplo, pai2_tuplo, df):
     filho2, disp2 = reparar_conflitos(filho2, df)
 
     return (filho1, disp1), (filho2, disp2)
-
 
 # ------------------------------------------------------------------
 # Mutação
