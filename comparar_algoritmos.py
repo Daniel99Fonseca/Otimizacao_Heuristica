@@ -1,5 +1,6 @@
 import pandas as pd
 import random
+import time
 random.seed(42)
 
 from src.carrega_dados import carregar_dataset
@@ -32,11 +33,14 @@ print("\n" + "=" * 55)
 print("SA — Esquema do enunciado (M=[10,10,10,5,5], 40 iter.)")
 print("=" * 55)
 random.seed(42)
+
+inicio_sa_enun = time.time()
 sol_sa_enun, pop_sa_enun = simulated_annealing(
     sol_inicial, df, disponiveis.copy(),
     "output/output_sa_enunciado.csv",
     esquema_M=M_ENUNCIADO
 )
+tempo_sa_enun = time.time() - inicio_sa_enun
 
 # ------------------------------------------------------------------
 # SA — Esquema alternativo
@@ -45,27 +49,33 @@ print("\n" + "=" * 55)
 print("SA — Esquema alternativo (380 iter.)")
 print("=" * 55)
 random.seed(42)
+
+inicio_sa_alt = time.time()
 sol_sa_alt, pop_sa_alt = simulated_annealing(
     sol_inicial, df, disponiveis.copy(),
     "output/output_sa_alternativo.csv",
     esquema_M=M_ALTERNATIVO
 )
+tempo_sa_alt = time.time() - inicio_sa_alt
 
 # ------------------------------------------------------------------
 # AG
 # ------------------------------------------------------------------
 print("\n" + "=" * 55)
-print("AG — 20 cromossomas × 50 gerações")
+print("AG — 20 cromossomas × 30 gerações")
 print("=" * 55)
 random.seed(42)
+
+inicio_ag = time.time()
 sol_ag, pop_ag = algoritmo_genetico(
     df,
     n_cromossomas  = 20,
-    n_geracoes     = 50,
+    n_geracoes     = 30,
     prob_mutacao   = 0.1,
     caminho_output = "output/output_ag.csv",
     k_torneio      = 5
 )
+tempo_ag = time.time() - inicio_ag
 
 # ------------------------------------------------------------------
 # Tabela comparativa final
@@ -81,8 +91,13 @@ resultados = {
     'AG'                     : (sol_ag,        pop_ag),
 }
 
-print(f"{'Algoritmo':<30} {'Popularidade':>14} {'Melhoria':>10} {'Admissível':>12}")
-print("-" * 70)
+print(f"\n{'Algoritmo':<30} {'Popularidade':>12} {'Melhoria':>10} {'Tempo (s)':>10}")
+print("-" * 65)
+print(f"{'Heurística construtiva':<30} {pop_inicial:>12} {'—':>10} {'—':>10}")
+print(f"{'SA — enunciado':<30} {pop_sa_enun:>12} {pop_sa_enun - pop_inicial:>+10} {tempo_sa_enun:>9.2f}s")
+print(f"{'SA — alternativo':<30} {pop_sa_alt:>12} {pop_sa_alt - pop_inicial:>+10} {tempo_sa_alt:>9.2f}s")
+print(f"{'AG':<30} {pop_ag:>12} {pop_ag - pop_inicial:>+10} {tempo_ag:>9.2f}s")
+
 for nome, (sol, pop) in resultados.items():
     adm, _ = verificar_admissibilidade(sol, df)
     melhoria = pop - pop_inicial

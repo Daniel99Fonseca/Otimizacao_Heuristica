@@ -2,12 +2,13 @@ playlist,track_name,artists,popularity,duracao_min,instrumentalness,tempo,dancea
 PL1,YKWIM?,Yot Club,84,3.55,0.873,123.7,0.372,0.287,0.228,False
 PL1,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
 PL1,Alien Blues,Vundabar,82,2.6,0.908,82.3,0.467,0.088,0.433,False
-PL1,Brown Sleep Noise,Sleep Miracle,80,4.13,1.0,59.5,0.056,0.112,0.06,False
-PL1,Experience,Ludovico Einaudi;Daniel Hope;I Virtuosi Italiani,79,5.26,0.961,92.5,0.447,0.07,0.036,False
 PL1,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
 PL1,K.,Cigarettes After Sex,78,5.33,0.846,93.7,0.454,0.137,0.327,False
 PL1,Sunsetz,Cigarettes After Sex,78,3.59,0.795,75.4,0.405,0.097,0.131,False
+PL1,Shootout,Izzamuzzic;Julien Marchal,78,4.92,0.906,87.0,0.663,0.109,0.553,False
 PL1,i was all over her,salvia palth,77,2.69,0.853,104.6,0.529,0.116,0.06,False
+PL1,Losing Interest,itssvd;Shiloh Dynasty,76,2.01,0.87,111.9,0.753,0.122,0.506,False
+PL1,Fed Up,Ghostemane,76,2.53,0.695,115.1,0.849,0.147,0.068,False
 PL2,Unholy (feat. Kim Petras),Sam Smith;Kim Petras,100,2.62,0.0,131.1,0.714,0.266,0.238,False
 PL2,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
 PL2,La Bachata,Manuel Turizo,98,2.71,0.0,125.0,0.835,0.218,0.85,False
@@ -28,16 +29,16 @@ PL3,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,Fa
 PL3,Pano,Zack Tabudlo,75,4.24,0.015,174.8,0.375,0.191,0.415,True
 PL3,Give Me Your Forever,Zack Tabudlo,74,4.08,0.0,99.9,0.627,0.093,0.301,True
 PL3,Call on Me - Radio Mix,Eric Prydz,74,2.86,0.001,126.3,0.597,0.839,0.447,False
-PL4,Epiphany,BTS,72,4.01,0.0,135.9,0.508,0.131,0.329,False
-PL4,Believe Me,Navos,71,3.14,0.0,125.0,0.629,0.29,0.645,False
-PL4,Remedy,Seether,70,3.45,0.001,127.8,0.55,0.061,0.391,False
-PL4,Last Melody,Anthony Keyrouz;Glaceo,66,2.47,0.0,131.1,0.671,0.184,0.418,False
 PL4,Hands Up - Single Version,Ottawan,66,3.48,0.0,123.3,0.888,0.375,0.992,False
-PL4,Some Broken Hearts Never Mend,Don Williams,56,2.85,0.888,97.6,0.622,0.108,0.71,False
-PL4,No Need to Worry,Coffee Cub,56,2.72,0.248,116.0,0.676,0.086,0.195,False
-PL4,Real Life,Story Of The Year,56,2.74,0.0,154.1,0.536,0.179,0.677,False
-PL4,"Jesus Forgive Me, I Am A Thot",JPEGMAFIA,54,2.61,0.0,122.3,0.628,0.318,0.602,False
+PL4,GTA,Rarin,65,2.08,0.0,155.1,0.685,0.107,0.471,False
+PL4,La Vie En Rose,Daniela Andrade,62,1.76,0.0,95.4,0.475,0.14,0.318,False
+PL4,I'll Be Waiting,Adele,54,4.02,0.0,160.1,0.547,0.114,0.749,False
+PL4,Skåneland,Lasse Stefanz,36,2.88,0.0,147.0,0.668,0.259,0.943,False
+PL4,Roll Your Hands,Debbie Doo,32,1.21,0.0,155.9,0.741,0.179,0.993,False
 PL4,Haciendote el Amor,Los Locos Del Ritmo,31,2.0,0.0,138.2,0.571,0.133,0.988,False
+PL4,Zuipen,Lawineboys,30,2.67,0.0,122.0,0.849,0.299,0.993,False
 PL4,Round and Round We Go,Debbie Doo,27,1.24,0.0,116.0,0.769,0.03,0.991,False
-PL4,The Demander,Victor Rice,18,2.31,0.811,141.6,0.678,0.17,0.995,False
+PL4,Eimaste Dyo,Mikis Theodorakis;Antonis Kalogiannis,24,2.51,0.003,119.1,0.678,0.322,0.988,False
+PL4,TROPA DA MAINSTREET SO TEM MALVADAO,mc jhenny;DJ Ruan da VK;Rafael Foxx;IURY FERNANDES,22,1.96,0.0,149.9,0.893,0.02,0.989,False
 PL4,I Like Pencils,Cody;Heart;Mr. Primm;Scatter;K.Flay,9,1.6,0.0,105.0,0.962,0.1,0.992,False
+PL4,GOD Will Provide,Terrence Parker,5,6.88,0.936,122.0,0.808,0.047,0.991,False

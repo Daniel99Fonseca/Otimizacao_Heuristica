@@ -144,13 +144,9 @@ def gerar_populacao_inicial(df, n_cromossomas):
 # Selecção por torneio
 # ------------------------------------------------------------------
 
-def selecionar_pai(populacao, df, k=5):
-    """
-    Selecção por torneio: escolhe k cromossomas aleatoriamente
-    e devolve o índice do de maior popularidade (aptidão).
-    """
+def selecionar_pai(populacao, aptidoes, k=5):
     candidatos = random.sample(range(len(populacao)), k)
-    melhor_idx = max(candidatos, key=lambda i: calcular_popularidade(populacao[i][0], df))
+    melhor_idx = max(candidatos, key=lambda i: aptidoes[i])
     return melhor_idx
 
 
@@ -346,11 +342,10 @@ def algoritmo_genetico(df, n_cromossomas, n_geracoes, prob_mutacao,
 
         # Gerar os restantes cromossomas
         while len(nova_populacao) < n_cromossomas:
-            idx_pai1 = selecionar_pai(populacao, df, k=k_torneio)
-            idx_pai2 = selecionar_pai(populacao, df, k=k_torneio)
+            idx_pai1 = selecionar_pai(populacao, aptidoes, k=k_torneio)
+            idx_pai2 = selecionar_pai(populacao, aptidoes, k=k_torneio)
             while idx_pai2 == idx_pai1:
-                idx_pai2 = selecionar_pai(populacao, df, k=k_torneio)
-
+                idx_pai2 = selecionar_pai(populacao, aptidoes, k=k_torneio)
             filho1_t, filho2_t = crossover(populacao[idx_pai1], populacao[idx_pai2], df)
             filho1_t = mutacao(filho1_t, df, prob_mutacao)
             filho2_t = mutacao(filho2_t, df, prob_mutacao)

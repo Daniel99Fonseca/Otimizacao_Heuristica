@@ -1,381 +1,271 @@
 iteracao,temperatura,f_atual,f_vizinho,delta,prob_aceitacao,aceite,movimento,melhor_ate_agora
-1,28.01,2801,2708,93,0.036144,Sim,Substituição em PL2: 'Neverita' → 'Nature Boy',2801
-2,28.01,2708,2700,8,0.751554,Sim,Substituição em PL4: 'Zuipen' → 'Viskleken',2801
-3,28.01,2700,2668,32,0.319037,Não,Substituição em PL3: 'Pump It Louder' → 'Volta por Cima - Ao Vivo',2801
-4,28.01,2700,2700,0,1.0,Sim,Troca inter-playlist: 'The Demander' (PL4) ↔ 'Chamber Of Reflection' (PL1),2801
-5,28.01,2700,2733,-33,1.0,Sim,Substituição em PL4: 'Las Frutas' → 'Et øyeblikk',2801
-6,28.01,2733,2733,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Hands Up - Single Version' (PL4),2801
-7,28.01,2733,2733,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'Chamber Of Reflection' (PL4)",2801
-8,28.01,2733,2678,55,0.140354,Não,Substituição em PL2: 'Another Love' → 'Up Around The Bend',2801
-9,28.01,2733,2733,0,1.0,Sim,Troca inter-playlist: 'Flor de Capomo' (PL4) ↔ 'La Bachata' (PL2),2801
-10,28.01,2733,2733,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'La Bachata' (PL4),2801
-11,28.01,2733,2773,-40,1.0,Sim,Substituição em PL4: 'GOD Will Provide' → 'Who You Say I Am - Recorded at Sound Stage Nashville',2801
-12,28.01,2773,2773,0,1.0,Sim,Troca inter-playlist: 'Me Porto Bonito' (PL3) ↔ 'Viskleken' (PL4),2801
-13,28.01,2773,2773,0,1.0,Sim,Troca inter-playlist: 'Los Tres De Zacatecas' (PL4) ↔ 'Viskleken' (PL3),2801
-14,28.01,2773,2773,0,1.0,Sim,Troca inter-playlist: 'Viskleken' (PL4) ↔ 'Los Tres De Zacatecas' (PL3),2801
-15,28.01,2773,2785,-12,1.0,Sim,Substituição em PL4: 'Round and Round We Go' → 'Dragonfruit',2801
-16,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Viskleken' (PL3) ↔ 'Me Porto Bonito' (PL4),2801
-17,28.01,2785,2735,50,0.167784,Não,Substituição em PL2: 'Sweater Weather' → 'Last Thing I'll Ever Need',2801
-18,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL2) ↔ 'Dragonfruit' (PL4),2801
-19,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL2) ↔ 'Chamber Of Reflection' (PL4),2801
-20,28.01,2785,2725,60,0.117409,Não,Substituição em PL2: 'As It Was' → 'I GOT YOU',2801
-21,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL4) ↔ 'Flor de Capomo' (PL2),2801
-22,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL2) ↔ 'Tell Me Now' (PL4),2801
-23,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Flor de Capomo' (PL4) ↔ 'Unholy (feat. Kim Petras)' (PL2),2801
-24,28.01,2785,2785,0,1.0,Sim,"Troca inter-playlist: 'Me Porto Bonito' (PL3) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4)",2801
-25,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'The Demander' (PL1) ↔ 'Et øyeblikk' (PL4),2801
-26,28.01,2785,2785,0,1.0,Sim,Troca inter-playlist: 'Sunsetz' (PL1) ↔ 'Chamber Of Reflection' (PL4),2801
-27,28.01,2785,2748,37,0.26688,Não,Substituição em PL4: 'Hands Up - Single Version' → 'Todo mundo de Pie',2801
-28,28.01,2785,2834,-49,1.0,Sim,Substituição em PL4: 'The Demander' → 'Figure It Out',2801
-29,28.01,2834,2752,82,0.053529,Não,Substituição em PL4: 'Me Porto Bonito' → 'Lo Que Nunca Te Diran',2834
-30,28.01,2834,2834,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL4) ↔ 'La Bachata' (PL2),2834
-31,28.01,2834,2760,74,0.071225,Não,Substituição em PL1: 'Chamber Of Reflection' → 'My Love',2834
-32,28.01,2834,2748,86,0.046406,Não,Substituição em PL2: 'Another Love' → 'Dreams of Dreamers',2834
-33,28.01,2834,2835,-1,1.0,Sim,Substituição em PL2: 'Hands Up - Single Version' → 'El Fin del Mundo',2834
-34,28.01,2835,2820,15,0.585363,Sim,Substituição em PL2: 'Dragonfruit' → 'Little Criminals',2835
-35,28.01,2820,2720,100,0.028152,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Tú Me Obligaste',2835
-36,28.01,2820,2820,0,1.0,Sim,"Troca inter-playlist: 'Viskleken' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL3)",2835
-37,28.01,2820,2820,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'Super Freaky Girl' (PL2),2835
-38,28.01,2820,2857,-37,1.0,Sim,Substituição em PL3: 'Viskleken' → 'Five Little Monkeys',2835
-39,28.01,2857,2857,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'Little Criminals' (PL2)",2857
-40,28.01,2857,2857,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL4) ↔ 'El Fin del Mundo' (PL2),2857
-41,28.01,2857,2854,3,0.898432,Sim,Substituição em PL3: 'Five Little Monkeys' → 'Better With You',2857
-42,28.01,2854,2911,-57,1.0,Sim,Substituição em PL2: 'Tell Me Now' → 'Falls (feat. Sasha Alex Sloan)',2857
-43,28.01,2911,2835,76,0.066316,Não,Substituição em PL2: 'La Bachata' → 'The World Standard Dancing Club',2911
-44,28.01,2911,2964,-53,1.0,Sim,Substituição em PL2: 'Nature Boy' → 'Marchin On',2911
-45,28.01,2964,2908,56,0.135432,Não,Substituição em PL2: 'Another Love' → 'Get to You',2964
-46,28.01,2964,2964,0,1.0,Sim,Troca inter-playlist: 'Little Criminals' (PL4) ↔ 'I'm Good (Blue)' (PL2),2964
-47,28.01,2964,2964,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'Sunsetz' (PL4),2964
-48,28.01,2964,2964,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL4) ↔ 'La Bachata' (PL2),2964
-49,28.01,2964,2964,0,1.0,Sim,Troca inter-playlist: 'Marchin On' (PL2) ↔ 'El Fin del Mundo' (PL4),2964
-50,28.01,2964,2994,-30,1.0,Sim,Substituição em PL4: 'I Like Pencils' → 'Going on a Road Trip',2964
-51,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Who You Say I Am - Recorded at Sound Stage Nashville' (PL4) ↔ 'Falls (feat. Sasha Alex Sloan)' (PL2),2994
-52,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Roll Your Hands' (PL4) ↔ 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL2),2994
-53,8.403,2994,2970,24,0.057491,Não,Substituição em PL4: 'Alien Blues' → 'Bleed It Out',2994
-54,8.403,2994,2994,0,1.0,Sim,Substituição em PL4: 'Marchin On' → 'Flight',2994
-55,8.403,2994,2974,20,0.092541,Não,Substituição em PL2: 'Flor de Capomo' → 'The Prophecy',2994
-56,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Flor de Capomo' (PL2) ↔ 'Super Freaky Girl' (PL4),2994
-57,8.403,2994,2969,25,0.051041,Não,Substituição em PL4: 'Alien Blues' → 'City of Angels',2994
-58,8.403,2994,2967,27,0.04023,Não,Substituição em PL4: 'Falls (feat. Sasha Alex Sloan)' → 'Unakaageh Kathirunthen',2994
-59,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'I'm Good (Blue)' (PL4),2994
-60,8.403,2994,2935,59,0.000893,Não,Substituição em PL2: 'Sweater Weather' → 'Fast Life',2994
-61,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Flight' (PL4) ↔ 'K.' (PL1),2994
-62,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Flor de Capomo' (PL4),2994
-63,8.403,2994,2949,45,0.004723,Não,Substituição em PL2: 'Another Love' → 'How Many Times',2994
-64,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL1) ↔ 'K.' (PL4),2994
-65,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL4) ↔ 'Better With You' (PL3),2994
-66,8.403,2994,2986,8,0.385953,Não,Substituição em PL2: 'Little Criminals' → 'El Simpatico',2994
-67,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL4) ↔ 'Sweater Weather' (PL2),2994
-68,8.403,2994,2921,73,0.000169,Não,Substituição em PL4: 'I Ain't Worried' → 'Another Town',2994
-69,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'Another Love' (PL2),2994
-70,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL3) ↔ 'Levels - Radio Edit' (PL1),2994
-71,8.403,2994,2994,0,1.0,Sim,"Troca inter-playlist: 'Falls (feat. Sasha Alex Sloan)' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",2994
-72,8.403,2994,2959,35,0.015527,Não,Substituição em PL2: 'Falls (feat. Sasha Alex Sloan)' → 'El Hijo de Cuca',2994
-73,8.403,2994,2994,0,1.0,Sim,Troca inter-playlist: 'Another Love' (PL4) ↔ 'Glimpse of Us' (PL2),2994
-74,8.403,2994,2985,9,0.34265,Não,Substituição em PL4: 'Better With You' → 'Day Ones',2994
-75,8.403,2994,2997,-3,1.0,Sim,Substituição em PL2: 'Little Criminals' → 'Your Baby Ain't Sweet Like Mine',2994
-76,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL3) ↔ 'Sunsetz' (PL1),2997
-77,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'Et øyeblikk' (PL1) ↔ 'Sunsetz' (PL3),2997
-78,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL1) ↔ 'Et øyeblikk' (PL3),2997
-79,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL4) ↔ 'As It Was' (PL2),2997
-80,8.403,2997,2997,0,1.0,Sim,"Troca inter-playlist: 'i was all over her' (PL3) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4)",2997
-81,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'Your Baby Ain't Sweet Like Mine' (PL2),2997
-82,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'As It Was' (PL4),2997
-83,8.403,2997,2961,36,0.013785,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Lola's Theme - Radio Edit',2997
-84,8.403,2997,2997,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),2997
-85,8.403,2997,2952,45,0.004723,Não,Substituição em PL4: 'Better With You' → 'Alpha School',2997
-86,8.403,2997,3019,-22,1.0,Sim,Substituição em PL2: 'Falls (feat. Sasha Alex Sloan)' → 'Your Love (9PM)',2997
-87,8.403,3019,2967,52,0.002053,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Moments',3019
-88,8.403,3019,3019,0,1.0,Sim,Troca inter-playlist: 'Your Baby Ain't Sweet Like Mine' (PL4) ↔ 'Super Freaky Girl' (PL2),3019
-89,8.403,3019,2985,34,0.017489,Não,Substituição em PL2: 'Your Love (9PM)' → 'Sana Neler Edeceğim',3019
-90,8.403,3019,3019,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'Chamber Of Reflection' (PL4),3019
-91,8.403,3019,2962,57,0.001133,Não,Substituição em PL4: 'Me Porto Bonito' → 'Garotos II - O Outro Lado',3019
-92,8.403,3019,2934,85,4e-05,Não,"Substituição em PL3: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Strength In Your Conviction'",3019
-93,8.403,3019,3019,0,1.0,Sim,Troca inter-playlist: 'Who You Say I Am - Recorded at Sound Stage Nashville' (PL2) ↔ 'Sweater Weather' (PL4),3019
-94,8.403,3019,3019,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL3) ↔ 'Your Baby Ain't Sweet Like Mine' (PL2)",3019
-95,8.403,3019,3019,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'As It Was' (PL4),3019
-96,8.403,3019,3019,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL2) ↔ 'Glimpse of Us' (PL4),3019
-97,8.403,3019,2990,29,0.031709,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Nevada',3019
-98,8.403,3019,2993,26,0.045314,Não,Substituição em PL4: 'Sweater Weather' → 'Flying',3019
-99,8.403,3019,3019,0,1.0,Sim,Substituição em PL2: 'Flor de Capomo' → 'Algo Personal',3019
-100,8.403,3019,2926,93,1.6e-05,Não,Substituição em PL4: 'Sweater Weather' → 'Like We Never Loved at All',3019
-101,2.5209,3019,2984,35,1e-06,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Zero To Hero',3019
-102,2.5209,3019,3019,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'Sweater Weather' (PL4),3019
-103,2.5209,3019,3019,0,1.0,Sim,Troca inter-playlist: 'El Fin del Mundo' (PL2) ↔ 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL4),3019
-104,2.5209,3019,2986,33,2e-06,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Secrets',3019
-105,2.5209,3019,2969,50,0.0,Não,Substituição em PL2: 'Your Love (9PM)' → 'Wrong Move',3019
-106,2.5209,3019,2955,64,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Hey Baby - Remastered 2019',3019
-107,2.5209,3019,2984,35,1e-06,Não,Substituição em PL4: 'Me Porto Bonito' → 'Unavailable',3019
-108,2.5209,3019,3019,0,1.0,Sim,Troca inter-playlist: 'Algo Personal' (PL2) ↔ 'El Fin del Mundo' (PL4),3019
-109,2.5209,3019,2995,24,7.3e-05,Não,Substituição em PL2: 'Chamber Of Reflection' → 'Looking For Something',3019
-110,2.5209,3019,3021,-2,1.0,Sim,Substituição em PL4: 'Better With You' → 'One Kiss (with Dua Lipa) - R3HAB Remix',3019
-111,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Algo Personal' (PL4) ↔ 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL2),3021
-112,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4) ↔ 'Your Baby Ain't Sweet Like Mine' (PL3),3021
-113,2.5209,3021,2965,56,0.0,Não,Substituição em PL3: 'Wish You Were Here' → 'Dirty Ol' Man',3021
-114,2.5209,3021,2979,42,0.0,Não,Substituição em PL4: 'La Bachata' → 'The Ballad Of John And Yoko - Remastered 2015',3021
-115,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Et øyeblikk' (PL1) ↔ 'i was all over her' (PL4),3021
-116,2.5209,3021,3021,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'Your Baby Ain't Sweet Like Mine' (PL4)",3021
-117,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL4),3021
-118,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'El Fin del Mundo' (PL2) ↔ 'La Bachata' (PL4),3021
-119,2.5209,3021,2942,79,0.0,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Que Te Importa Que Te Llore'",3021
-120,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'As It Was' (PL4),3021
-121,2.5209,3021,3011,10,0.018933,Não,Substituição em PL2: 'TROPA DA MAINSTREET SO TEM MALVADAO' → 'Saturday Night At The Fair',3021
-122,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL2) ↔ 'Super Freaky Girl' (PL4),3021
-123,2.5209,3021,2947,74,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Piel canela',3021
-124,2.5209,3021,2965,56,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Challa',3021
-125,2.5209,3021,2999,22,0.000162,Não,Substituição em PL4: 'TROPA DA MAINSTREET SO TEM MALVADAO' → 'Te Veré',3021
-126,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL4) ↔ 'Your Love (9PM)' (PL2),3021
-127,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL4) ↔ 'Super Freaky Girl' (PL2),3021
-128,2.5209,3021,2978,43,0.0,Não,Substituição em PL4: 'El Fin del Mundo' → 'Songbird',3021
-129,2.5209,3021,3021,0,1.0,Sim,Troca inter-playlist: 'Me Porto Bonito' (PL4) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL3),3021
-130,2.5209,3021,3053,-32,1.0,Sim,Substituição em PL2: 'Your Baby Ain't Sweet Like Mine' → 'PS5 (Fortnite Battle Pass Gamer Remix) [with Alan Walker & Abdul Cisse]',3021
-131,2.5209,3053,3053,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'As It Was' (PL2),3053
-132,2.5209,3053,3053,0,1.0,Sim,Troca inter-playlist: 'Who You Say I Am - Recorded at Sound Stage Nashville' (PL4) ↔ 'Glimpse of Us' (PL2),3053
-133,2.5209,3053,3053,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL4) ↔ 'Sweater Weather' (PL2),3053
-134,2.5209,3053,2987,66,0.0,Não,Substituição em PL2: 'La Bachata' → 'En la Jaula',3053
-135,2.5209,3053,3031,22,0.000162,Não,Substituição em PL3: 'Me Porto Bonito' → 'OK Not To Be OK',3053
-136,2.5209,3053,3090,-37,1.0,Sim,Substituição em PL2: 'Roll Your Hands' → 'Inside Out',3053
-137,2.5209,3090,3040,50,0.0,Não,Substituição em PL2: 'Inside Out' → 'Ventarrón',3090
-138,2.5209,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'Et øyeblikk' (PL4),3090
-139,2.5209,3090,3058,32,3e-06,Não,Substituição em PL2: 'Chamber Of Reflection' → 'Loneliness',3090
-140,2.5209,3090,3033,57,0.0,Não,Substituição em PL2: 'Your Love (9PM)' → 'Sarampion',3090
-141,2.5209,3090,3083,7,0.062238,Não,Substituição em PL4: 'One Kiss (with Dua Lipa) - R3HAB Remix' → 'Better Than Heaven',3090
-142,2.5209,3090,3090,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL1) ↔ 'Alien Blues' (PL4),3090
-143,2.5209,3090,3090,0,1.0,Sim,Troca inter-playlist: 'YKWIM?' (PL1) ↔ 'Chamber Of Reflection' (PL2),3090
-144,2.5209,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Inside Out' (PL2) ↔ 'Glimpse of Us' (PL4),3090
-145,2.5209,3090,3025,65,0.0,Não,Substituição em PL3: 'Me Porto Bonito' → 'Mira Bien',3090
-146,2.5209,3090,3053,37,0.0,Não,"Substituição em PL4: 'One Kiss (with Dua Lipa) - R3HAB Remix' → 'Canon in C, K.508A'",3090
-147,2.5209,3090,3040,50,0.0,Não,"Substituição em PL4: 'One Kiss (with Dua Lipa) - R3HAB Remix' → 'If You're on the Floor, then Dance!'",3090
-148,2.5209,3090,3010,80,0.0,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Quien Hubiera Dicho (with Leopoldo Federico y Su Orquesta)'",3090
-149,2.5209,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL4) ↔ 'Another Love' (PL2),3090
-150,2.5209,3090,3016,74,0.0,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Profundo',3090
-151,0.75627,3090,3074,16,0.0,Não,Substituição em PL4: 'i was all over her' → 'I Don't Sleep',3090
-152,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Algo Personal' (PL2) ↔ 'El Fin del Mundo' (PL4),3090
-153,0.75627,3090,3013,77,0.0,Não,Substituição em PL1: 'Chamber Of Reflection' → 'strawberry fields',3090
-154,0.75627,3090,3030,60,0.0,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Die Kerze',3090
-155,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL4) ↔ 'La Bachata' (PL2),3090
-156,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Algo Personal' (PL4) ↔ 'Me Porto Bonito' (PL3),3090
-157,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'As It Was' (PL2),3090
-158,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'YKWIM?' (PL2) ↔ 'Algo Personal' (PL3),3090
-159,0.75627,3090,3007,83,0.0,Não,Substituição em PL3: 'YKWIM?' → 'Feeling Good - Ronan Remix',3090
-160,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Another Love' (PL4) ↔ 'Sweater Weather' (PL2),3090
-161,0.75627,3090,3090,0,1.0,Sim,Troca inter-playlist: 'Algo Personal' (PL2) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4),3090
-162,0.75627,3090,3015,75,0.0,Não,Substituição em PL2: 'Another Love' → 'Rock To The Beat',3090
-163,0.75627,3090,3102,-12,1.0,Sim,Substituição em PL4: 'Algo Personal' → 'The Future',3090
-164,0.75627,3102,3018,84,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'The Witch Doctor',3102
-165,0.75627,3102,3102,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'La Bachata' (PL2),3102
-166,0.75627,3102,3047,55,0.0,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Niebla Cálida',3102
-167,0.75627,3102,3102,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL2) ↔ 'I Ain't Worried' (PL4),3102
-168,0.75627,3102,3059,43,0.0,Não,Substituição em PL3: 'YKWIM?' → 'Pela hora',3102
-169,0.75627,3102,3071,31,0.0,Não,Substituição em PL2: 'Who You Say I Am - Recorded at Sound Stage Nashville' → 'Bridges to a New Dawn',3102
-170,0.75627,3102,3102,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Sweater Weather' (PL4),3102
-171,0.75627,3102,3102,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL4) ↔ 'PS5 (Fortnite Battle Pass Gamer Remix) [with Alan Walker & Abdul Cisse]' (PL2),3102
-172,0.75627,3102,3107,-5,1.0,Sim,Substituição em PL4: 'PS5 (Fortnite Battle Pass Gamer Remix) [with Alan Walker & Abdul Cisse]' → 'Nike Ticks',3102
-173,0.75627,3107,3060,47,0.0,Não,Substituição em PL4: 'As It Was' → 'Haaye Rabba',3107
-174,0.75627,3107,3034,73,0.0,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Gaubi'",3107
-175,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'Super Freaky Girl' (PL2),3107
-176,0.75627,3107,3014,93,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'Nubes de Humo',3107
-177,0.75627,3107,3088,19,0.0,Não,Substituição em PL4: 'The Future' → 'Wir sind immer für euch da',3107
-178,0.75627,3107,3034,73,0.0,Não,Substituição em PL2: 'I Ain't Worried' → 'Watch Me Fold',3107
-179,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Nike Ticks' (PL4) ↔ 'Your Love (9PM)' (PL2),3107
-180,0.75627,3107,3063,44,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Back Door Man',3107
-181,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Super Freaky Girl' (PL4),3107
-182,0.75627,3107,3075,32,0.0,Não,Substituição em PL4: 'Glimpse of Us' → 'Parasite',3107
-183,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL2) ↔ 'As It Was' (PL4),3107
-184,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'El Fin del Mundo' (PL2) ↔ 'Super Freaky Girl' (PL4),3107
-185,0.75627,3107,3062,45,0.0,Não,Substituição em PL4: 'Inside Out' → 'Just A Kid',3107
-186,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'I Ain't Worried' (PL4),3107
-187,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL4) ↔ 'Et øyeblikk' (PL1),3107
-188,0.75627,3107,3057,50,0.0,Não,Substituição em PL2: 'One Kiss (with Dua Lipa) - R3HAB Remix' → 'Have No Fear',3107
-189,0.75627,3107,3075,32,0.0,Não,Substituição em PL1: 'Experience' → 'attack ON taian [TFSv]',3107
-190,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'As It Was' (PL2),3107
-191,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'El Fin del Mundo' (PL4) ↔ 'Glimpse of Us' (PL2),3107
-192,0.75627,3107,3079,28,0.0,Não,Substituição em PL2: 'Another Love' → 'Por la boca vive el pez',3107
-193,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL2) ↔ 'Glimpse of Us' (PL4),3107
-194,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4) ↔ 'YKWIM?' (PL3),3107
-195,0.75627,3107,3070,37,0.0,Não,Substituição em PL4: 'YKWIM?' → 'Unidentified Flying Object - Remastered',3107
-196,0.75627,3107,3058,49,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Summer Rain',3107
-197,0.75627,3107,3038,69,0.0,Não,Substituição em PL4: 'As It Was' → 'The Only Ones',3107
-198,0.75627,3107,3046,61,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Level',3107
-199,0.75627,3107,3063,44,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Baby Outlaw',3107
-200,0.75627,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Flight' (PL1) ↔ 'YKWIM?' (PL4),3107
-201,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'YKWIM?' (PL1) ↔ 'Flight' (PL4),3107
-202,0.226881,3107,3051,56,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Bruck It',3107
-203,0.226881,3107,3076,31,0.0,Não,Substituição em PL4: 'The Future' → 'Joy to the World',3107
-204,0.226881,3107,3107,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'El Fin del Mundo' (PL2)",3107
-205,0.226881,3107,3022,85,0.0,Não,Substituição em PL2: 'Super Freaky Girl' → 'Counting by Fours Song',3107
-206,0.226881,3107,3093,14,0.0,Não,Substituição em PL4: 'Figure It Out' → 'Blue Ain't Your Color',3107
-207,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Your Love (9PM)' (PL4),3107
-208,0.226881,3107,3039,68,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Thedinen',3107
-209,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'YKWIM?' (PL4) ↔ 'Sunsetz' (PL1),3107
-210,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'The Future' (PL4) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL3),3107
-211,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL1) ↔ 'Et øyeblikk' (PL4),3107
-212,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Chamber Of Reflection' (PL4),3107
-213,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Et øyeblikk' (PL1) ↔ 'Sunsetz' (PL4),3107
-214,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL4) ↔ 'Super Freaky Girl' (PL2),3107
-215,0.226881,3107,3068,39,0.0,Não,Substituição em PL2: 'Another Love' → 'Forever',3107
-216,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4),3107
-217,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL4) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL2),3107
-218,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL2) ↔ 'As It Was' (PL4),3107
-219,0.226881,3107,3059,48,0.0,Não,Substituição em PL2: 'Another Love' → 'Pray - Chris Malinchak Mix',3107
-220,0.226881,3107,3053,54,0.0,Não,Substituição em PL2: 'Chamber Of Reflection' → 'Vårt Liv I Repris',3107
-221,0.226881,3107,3106,1,0.012184,Não,Substituição em PL4: 'Going on a Road Trip' → 'Pick Me Up On Your Way Down - Single Version',3107
-222,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4) ↔ 'Sweater Weather' (PL2),3107
-223,0.226881,3107,3080,27,0.0,Não,Substituição em PL1: 'K.' → 'Legacy',3107
-224,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'The Future' (PL3) ↔ 'I'm Good (Blue)' (PL2),3107
-225,0.226881,3107,3061,46,0.0,Não,Substituição em PL4: 'Inside Out' → 'Svartmesse',3107
-226,0.226881,3107,3031,76,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Hurricane Season',3107
-227,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL3) ↔ 'Figure It Out' (PL4),3107
-228,0.226881,3107,3046,61,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'Firewall',3107
-229,0.226881,3107,3049,58,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'É Proibido Fumar - Versão remasterizada',3107
-230,0.226881,3107,3101,6,0.0,Não,Substituição em PL2: 'TROPA DA MAINSTREET SO TEM MALVADAO' → 'Nice for What',3107
-231,0.226881,3107,3054,53,0.0,Não,Substituição em PL1: 'Alien Blues' → 'Tänd strålkastarna',3107
-232,0.226881,3107,-,-,-,Sem vizinho,Troca inter-playlist: nenhum vizinho admissível encontrado,3107
-233,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Figure It Out' (PL3) ↔ 'I'm Good (Blue)' (PL4),3107
-234,0.226881,3107,3060,47,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'Colouring This Life',3107
-235,0.226881,3107,3058,49,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'I Would Never',3107
-236,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'As It Was' (PL2),3107
-237,0.226881,3107,3043,64,0.0,Não,"Substituição em PL4: 'Figure It Out' → 'Minuet in E Flat Major, K.122'",3107
-238,0.226881,3107,3107,0,1.0,Sim,"Troca inter-playlist: 'Inside Out' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",3107
-239,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'Chamber Of Reflection' (PL2),3107
-240,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL3) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL2),3107
-241,0.226881,3107,3107,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL4) ↔ 'Another Love' (PL2),3107
-242,0.226881,3107,3046,61,0.0,Não,Substituição em PL4: 'Et øyeblikk' → 'Ходит по полю девчонка',3107
-243,0.226881,3107,3112,-5,1.0,Sim,Substituição em PL2: 'Who You Say I Am - Recorded at Sound Stage Nashville' → 'Braincase',3107
-244,0.226881,3112,3112,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Another Love' (PL4),3112
-245,0.226881,3112,3045,67,0.0,Não,Substituição em PL4: 'El Fin del Mundo' → 'Turbulent Flow',3112
-246,0.226881,3112,3071,41,0.0,Não,Substituição em PL2: 'Super Freaky Girl' → 'Free Fall',3112
-247,0.226881,3112,3071,41,0.0,Não,Substituição em PL4: 'Et øyeblikk' → 'Don't Give a Damn (feat. Janine)',3112
-248,0.226881,3112,3112,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL4) ↔ 'The Future' (PL2),3112
-249,0.226881,3112,3079,33,0.0,Não,Substituição em PL4: 'Figure It Out' → 'Spin',3112
-250,0.226881,3112,3112,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL4) ↔ 'Nike Ticks' (PL2),3112
-251,0.068064,3112,3107,5,0.0,Não,Substituição em PL4: 'Los Tres De Zacatecas' → 'The King Is Gone (So Are You)',3112
-252,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'Et øyeblikk' (PL4) ↔ 'YKWIM?' (PL1),3112
-253,0.068064,3112,3039,73,0.0,Não,Substituição em PL2: 'As It Was' → 'Half Mile Down',3112
-254,0.068064,3112,3039,73,0.0,Não,Substituição em PL2: 'As It Was' → 'Disappear',3112
-255,0.068064,3112,3096,16,0.0,Não,Substituição em PL4: 'Figure It Out' → 'I Make Sparks',3112
-256,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL4) ↔ 'Unholy (feat. Kim Petras)' (PL2),3112
-257,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL1) ↔ 'Chamber Of Reflection' (PL4),3112
-258,0.068064,3112,3108,4,0.0,Não,Substituição em PL4: 'Nike Ticks' → 'Dreaming',3112
-259,0.068064,3112,3019,93,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Люблю (Вдыхая розы аромат)',3112
-260,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'YKWIM?' (PL4) ↔ 'Sunsetz' (PL1),3112
-261,0.068064,3112,3112,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'Super Freaky Girl' (PL2)",3112
-262,0.068064,3112,3060,52,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Mala Amarela - Ao Vivo',3112
-263,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'Braincase' (PL2) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL3),3112
-264,0.068064,3112,3107,5,0.0,Não,Substituição em PL4: 'Going on a Road Trip' → 'Baki vs Mohammad Ali Jr. Torneo Raitai Rap',3112
-265,0.068064,3112,3112,0,1.0,Sim,"Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",3112
-266,0.068064,3112,3037,75,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Nice Suh (Mildew Riddim)',3112
-267,0.068064,3112,3018,94,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Ramona Flowers',3112
-268,0.068064,3112,3112,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'As It Was' (PL2)",3112
-269,0.068064,3112,3112,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4)",3112
-270,0.068064,3112,3112,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL4) ↔ 'Brown Sleep Noise' (PL1),3112
-271,0.068064,3112,3138,-26,1.0,Sim,Substituição em PL3: 'Braincase' → 'Cooler Than Me - Single Mix',3112
-272,0.068064,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'Sunsetz' (PL4),3138
-273,0.068064,3138,3102,36,0.0,Não,Substituição em PL4: 'As It Was' → 'I Drove All Night',3138
-274,0.068064,3138,3070,68,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'OUR REVOLUTION',3138
-275,0.068064,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Cooler Than Me - Single Mix' (PL3) ↔ 'La Bachata' (PL4),3138
-276,0.068064,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'La Bachata' (PL3) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4)",3138
-277,0.068064,3138,3138,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'La Bachata' (PL4),3138
-278,0.068064,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL1) ↔ 'Alien Blues' (PL4),3138
-279,0.068064,3138,3138,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'El Fin del Mundo' (PL4),3138
-280,0.068064,3138,3083,55,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'How I feel',3138
-281,0.020419,3138,3102,36,0.0,Não,Substituição em PL4: 'Brown Sleep Noise' → 'La Camisa Vieja',3138
-282,0.020419,3138,3062,76,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'Half Mile Down',3138
-283,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Brown Sleep Noise' (PL4) ↔ 'Levels - Radio Edit' (PL1),3138
-284,0.020419,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'As It Was' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL3)",3138
-285,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Cooler Than Me - Single Mix' (PL4),3138
-286,0.020419,3138,3079,59,0.0,Não,Substituição em PL2: 'La Bachata' → 'Aquilo Que Nunca Me Deu',3138
-287,0.020419,3138,3076,62,0.0,Não,Substituição em PL1: 'Alien Blues' → 'Under The Double Eagle',3138
-288,0.020419,3138,3046,92,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'Doppler',3138
-289,0.020419,3138,3071,67,0.0,Não,Substituição em PL1: 'i was all over her' → 'When Human Compost Stains All Earth And Repels The Messengers Of Love',3138
-290,0.020419,3138,3088,50,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Ease Off - Slowed & Reverbed',3138
-291,0.020419,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'Super Freaky Girl' (PL2)",3138
-292,0.020419,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'The Future' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",3138
-293,0.020419,3138,3054,84,0.0,Não,Substituição em PL3: 'As It Was' → 'Three's A Crowd',3138
-294,0.020419,3138,3080,58,0.0,Não,Substituição em PL3: 'Wish You Were Here' → 'Am Fenster',3138
-295,0.020419,3138,3116,22,0.0,Não,Substituição em PL2: 'El Fin del Mundo' → 'Orkes Sakit Hati',3138
-296,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL3) ↔ 'Super Freaky Girl' (PL4),3138
-297,0.020419,3138,3124,14,0.0,Não,Substituição em PL1: 'Et øyeblikk' → 'Reign in Hell',3138
-298,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'The Future' (PL2) ↔ 'Super Freaky Girl' (PL3),3138
-299,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Nike Ticks' (PL4) ↔ 'Super Freaky Girl' (PL2),3138
-300,0.020419,3138,3105,33,0.0,Não,Substituição em PL1: 'Flight' → 'Love Troubles',3138
-301,0.020419,3138,3100,38,0.0,Não,Substituição em PL2: 'Sweater Weather' → '開不了口',3138
-302,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'Glimpse of Us' (PL4),3138
-303,0.020419,3138,3089,49,0.0,Não,Substituição em PL2: 'Another Love' → 'G.T.F.O.T.W. (feat. Hashu)',3138
-304,0.020419,3138,3133,5,0.0,Não,Substituição em PL3: 'The Future' → 'Nem Vou',3138
-305,0.020419,3138,3087,51,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'Convocação',3138
-306,0.020419,3138,3102,36,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'She's Thunderstorms',3138
-307,0.020419,3138,3119,19,0.0,Não,Substituição em PL2: 'Inside Out' → 'Fierce - Studio Version',3138
-308,0.020419,3138,3138,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL4) ↔ 'Cooler Than Me - Single Mix' (PL2),3138
-309,0.020419,3138,3122,16,0.0,Não,Substituição em PL4: 'Figure It Out' → 'Prayer In C',3138
-310,0.020419,3138,3123,15,0.0,Não,Substituição em PL4: 'Going on a Road Trip' → '葉山ツイスト',3138
-311,0.006126,3138,3122,16,0.0,Não,Substituição em PL4: 'Going on a Road Trip' → 'Western Union',3138
-312,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'The Future' (PL3),3138
-313,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),3138
-314,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL3) ↔ 'Unholy (feat. Kim Petras)' (PL2),3138
-315,0.006126,3138,3092,46,0.0,Não,Substituição em PL2: 'Your Love (9PM)' → 'Tiki God',3138
-316,0.006126,3138,3107,31,0.0,Não,"Substituição em PL4: 'Super Freaky Girl' → 'Good Golly, Miss Molly'",3138
-317,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4) ↔ 'Unholy (feat. Kim Petras)' (PL3),3138
-318,0.006126,3138,3113,25,0.0,Não,Substituição em PL2: 'Another Love' → 'Traingazing',3138
-319,0.006126,3138,3076,62,0.0,Não,Substituição em PL1: 'K.' → 'Spiritual Value',3138
-320,0.006126,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4)",3138
-321,0.006126,3138,3108,30,0.0,Não,"Substituição em PL4: 'Glimpse of Us' → 'The Look Of Love, Pt.1'",3138
-322,0.006126,3138,3082,56,0.0,Não,Substituição em PL4: 'Levels - Radio Edit' → 'Like A Parasite',3138
-323,0.006126,3138,3067,71,0.0,Não,Substituição em PL2: 'La Bachata' → 'Companionship',3138
-324,0.006126,3138,3091,47,0.0,Não,Substituição em PL2: 'Your Love (9PM)' → 'Nulle part',3138
-325,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Cooler Than Me - Single Mix' (PL4) ↔ 'The Future' (PL2),3138
-326,0.006126,3138,3107,31,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Charlie Be Quiet!',3138
-327,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Cooler Than Me - Single Mix' (PL2) ↔ 'Glimpse of Us' (PL4),3138
-328,0.006126,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'Chamber Of Reflection' (PL4)",3138
-329,0.006126,3138,3101,37,0.0,Não,Substituição em PL4: 'Cooler Than Me - Single Mix' → 'Thillana 2.0 - Dhanashree (feat. Sharanya Srinivas)',3138
-330,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Inside Out' (PL2) ↔ 'Cooler Than Me - Single Mix' (PL4),3138
-331,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),3138
-332,0.006126,3138,3080,58,0.0,Não,Substituição em PL4: 'I Ain't Worried' → 'Camisa 10 joga bola até na chuva (Bomba Sonica)',3138
-333,0.006126,3138,3104,34,0.0,Não,"Substituição em PL2: 'Another Love' → '很久以後 - 電影《可不可以,你也剛好喜歡我》主題曲'",3138
-334,0.006126,3138,3091,47,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'Tú',3138
-335,0.006126,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL3)",3138
-336,0.006126,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Cooler Than Me - Single Mix' (PL2) ↔ 'Inside Out' (PL4),3138
-337,0.006126,3138,3110,28,0.0,Não,Substituição em PL2: 'Another Love' → 'Anymore',3138
-338,0.006126,3138,3062,76,0.0,Não,Substituição em PL4: 'Cooler Than Me - Single Mix' → 'Save Yourself',3138
-339,0.006126,3138,3138,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL3) ↔ 'The Future' (PL4)",3138
-340,0.006126,3138,3102,36,0.0,Não,Substituição em PL2: 'Chamber Of Reflection' → 'Destruição',3138
-341,0.001838,3138,3138,0,1.0,Sim,Troca inter-playlist: 'Chamber Of Reflection' (PL2) ↔ 'One Kiss (with Dua Lipa) - R3HAB Remix' (PL4),3138
-342,0.001838,3138,3172,-34,1.0,Sim,Substituição em PL3: 'The Future' → 'Feliz Cumpleaños Ferxxo',3138
-343,0.001838,3172,3172,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'Cooler Than Me - Single Mix' (PL4),3172
-344,0.001838,3172,3172,0,1.0,Sim,"Troca inter-playlist: 'Cooler Than Me - Single Mix' (PL2) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4)",3172
-345,0.001838,3172,3170,2,0.0,Não,Substituição em PL2: 'El Fin del Mundo' → 'Intro: Serendipity',3172
-346,0.001838,3172,3172,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'Cooler Than Me - Single Mix' (PL4),3172
-347,0.001838,3172,3113,59,0.0,Não,Substituição em PL1: 'Brown Sleep Noise' → 'Imagination Station',3172
-348,0.001838,3172,3170,2,0.0,Não,Substituição em PL4: 'Los Tres De Zacatecas' → 'YAŞANMAMIŞ SAY',3172
-349,0.001838,3172,3096,76,0.0,Não,"Substituição em PL4: 'La Bachata' → 'Nabucco / Act II: Vieni, o Levita!'",3172
-350,0.001838,3172,3133,39,0.0,Não,Substituição em PL2: 'El Fin del Mundo' → 'A Place To Start',3172
-351,0.001838,3172,3173,-1,1.0,Sim,"Substituição em PL2: 'Cooler Than Me - Single Mix' → 'Dil Ko Karaar Aaya (From ""Sukoon"")'",3172
-352,0.001838,3173,3173,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL4) ↔ 'El Fin del Mundo' (PL2),3173
-353,0.001838,3173,3173,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'I Ain't Worried' (PL4)",3173
-354,0.001838,3173,3155,18,0.0,Não,"Substituição em PL4: 'Figure It Out' → 'Baby, It's Cold Outside (feat. Darren Criss)'",3173
-355,0.001838,3173,3173,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL2) ↔ 'YKWIM?' (PL1),3173
-356,0.001838,3173,3173,0,1.0,Sim,Troca inter-playlist: 'El Fin del Mundo' (PL4) ↔ 'Your Love (9PM)' (PL2),3173
-357,0.001838,3173,3173,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'Another Love' (PL2)",3173
-358,0.001838,3173,3122,51,0.0,Não,Substituição em PL1: 'K.' → 'Banano´s Bar',3173
-359,0.001838,3173,3149,24,0.0,Não,Substituição em PL1: 'Flight' → 'Unravel (OP from 'Tokyo Ghoul')',3173
-360,0.001838,3173,3173,0,1.0,Sim,Troca inter-playlist: 'Feliz Cumpleaños Ferxxo' (PL3) ↔ 'Your Love (9PM)' (PL4),3173
-361,0.000551,3173,3173,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'YKWIM?' (PL2),3173
-362,0.000551,3173,3095,78,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Johanna',3173
-363,0.000551,3173,3092,81,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Fiesta',3173
-364,0.000551,3173,3173,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),3173
-365,0.000551,3173,3130,43,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Nobody Knows Me At All',3173
-366,0.000551,3173,3173,0,1.0,Sim,Troca inter-playlist: 'Your Love (9PM)' (PL3) ↔ 'Los Tres De Zacatecas' (PL4),3173
-367,0.000551,3173,3117,56,0.0,Não,Substituição em PL4: 'Super Freaky Girl' → 'Do Fundo do Nosso Quintal',3173
-368,0.000551,3173,3149,24,0.0,Não,"Substituição em PL2: 'Sweater Weather' → 'Flightless Bird, American Mouth'",3173
-369,0.000551,3173,3114,59,0.0,Não,Substituição em PL4: 'Another Love' → 'Si Tu Boquita Fuera - Acústico',3173
-370,0.000551,3173,3095,78,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'I Just Can't',3173
-371,0.000551,3173,3102,71,0.0,Não,"Substituição em PL4: 'Chamber Of Reflection' → 'Night Night, Baby Shark'",3173
-372,0.000551,3173,3173,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL4) ↔ 'Los Tres De Zacatecas' (PL3),3173
-373,0.000551,3173,3100,73,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Nackt auf der Insel',3173
-374,0.000551,3173,3151,22,0.0,Não,Substituição em PL3: 'TROPA DA MAINSTREET SO TEM MALVADAO' → 'I'll Be Home For Christmas - From The Kacey Musgraves Christmas Show',3173
-375,0.000551,3173,3173,0,1.0,Sim,Troca inter-playlist: 'TROPA DA MAINSTREET SO TEM MALVADAO' (PL3) ↔ 'Your Love (9PM)' (PL4),3173
-376,0.000551,3173,3099,74,0.0,Não,Substituição em PL4: 'Another Love' → 'Black Swan Theory',3173
-377,0.000551,3173,3126,47,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Say Yeah',3173
-378,0.000551,3173,3163,10,0.0,Não,Substituição em PL2: 'Inside Out' → 'Mimetismo',3173
-379,0.000551,3173,3106,67,0.0,Não,Substituição em PL4: 'Another Love' → 'Wajong',3173
-380,0.000551,3173,3126,47,0.0,Não,Substituição em PL2: 'Sweater Weather' → 'Não Vou Mais Atrás De Você (Agora Eu Me Curei) - Ao Vivo',3173
+1,27.96,2796,2771,25,0.408961,Não,Substituição em PL2: 'Neverita' → 'Heaven (feat. Sofia Quinn) - Club Mix',2796
+2,27.96,2796,2796,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL2) ↔ 'Hands Up - Single Version' (PL4),2796
+3,27.96,2796,2732,64,0.101369,Não,Substituição em PL2: 'Glimpse of Us' → 'Silver Light',2796
+4,27.96,2796,2778,18,0.525305,Não,Substituição em PL3: 'Hold On' → 'World Spins Madly On',2796
+5,27.96,2796,2769,27,0.38073,Não,Substituição em PL2: 'Hands Up - Single Version' → 'Blanche',2796
+6,27.96,2796,2743,53,0.150233,Não,Substituição em PL2: 'Neverita' → 'Tô na Vaquejada',2796
+7,27.96,2796,2796,0,1.0,Sim,Troca inter-playlist: 'Me Porto Bonito' (PL3) ↔ 'Zuipen' (PL4),2796
+8,27.96,2796,2729,67,0.091056,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'O Mito Do Insubstituível',2796
+9,27.96,2796,2738,58,0.125633,Não,Substituição em PL2: 'Super Freaky Girl' → 'The Wedding',2796
+10,27.96,2796,2796,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL1) ↔ 'The Demander' (PL4),2796
+11,27.96,2796,2721,75,0.068399,Não,Substituição em PL2: 'Glimpse of Us' → 'John (Met Z`n Accordeon)',2796
+12,27.96,2796,2796,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL4) ↔ 'Zuipen' (PL3),2796
+13,27.96,2796,2796,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'Sweater Weather' (PL4)",2796
+14,27.96,2796,2822,-26,1.0,Sim,Substituição em PL4: 'I Like Pencils' → 'Oriente',2796
+15,27.96,2822,2822,0,1.0,Sim,Troca inter-playlist: 'Oriente' (PL4) ↔ 'Transgender' (PL3),2822
+16,27.96,2822,2855,-33,1.0,Sim,Substituição em PL4: 'GOD Will Provide' → 'Nilüfer',2822
+17,27.96,2855,2855,0,1.0,Sim,Troca inter-playlist: 'Roll Your Hands' (PL4) ↔ 'Neverita' (PL2),2855
+18,27.96,2855,2811,44,0.207282,Sim,Substituição em PL1: 'YKWIM?' → 'The Destroyer',2855
+19,27.96,2811,2827,-16,1.0,Sim,Substituição em PL4: 'Nilüfer' → 'attached',2855
+20,27.96,2827,2812,15,0.584803,Não,Substituição em PL4: 'attached' → 'Bir Şehri Düşlemek',2855
+21,27.96,2827,2817,10,0.699315,Sim,Substituição em PL1: 'The Destroyer' → 'Through My Fingers',2855
+22,27.96,2817,2817,0,1.0,Sim,Troca inter-playlist: 'Flor de Capomo' (PL4) ↔ 'Super Freaky Girl' (PL2),2855
+23,27.96,2817,2824,-7,1.0,Sim,Substituição em PL4: 'TROPA DA MAINSTREET SO TEM MALVADAO' → 'A los Que Se Han Apagado',2855
+24,27.96,2824,2824,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL1) ↔ 'Transgender' (PL4),2855
+25,27.96,2824,2727,97,0.031141,Não,"Substituição em PL4: 'Me Porto Bonito' → 'How Far I'll Go - From ""Moana""'",2855
+26,27.96,2824,2826,-2,1.0,Sim,Substituição em PL2: 'Flor de Capomo' → 'Cómo Olvidar',2855
+27,27.96,2826,2826,0,1.0,Sim,Troca inter-playlist: 'Cómo Olvidar' (PL2) ↔ 'Super Freaky Girl' (PL4),2855
+28,27.96,2826,2818,8,0.75117,Sim,Substituição em PL4: 'Cómo Olvidar' → 'Pub Feed',2855
+29,27.96,2818,2818,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'Glimpse of Us' (PL2)",2855
+30,27.96,2818,2748,70,0.081792,Não,Substituição em PL2: 'Another Love' → 'Timeless',2855
+31,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'Tell Me Now' (PL4) ↔ 'I Ain't Worried' (PL2),2855
+32,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'Zuipen' (PL4) ↔ 'Oriente' (PL3),2855
+33,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL4) ↔ 'Transgender' (PL1),2855
+34,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'Oriente' (PL4) ↔ 'Tell Me Now' (PL2),2855
+35,8.388,2818,2818,0,1.0,Sim,"Troca inter-playlist: 'attached' (PL4) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",2855
+36,8.388,2818,2814,4,0.620722,Não,Substituição em PL3: 'Zuipen' → 'Don't Break My Heart Again',2855
+37,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'attached' (PL2) ↔ 'Neverita' (PL4),2855
+38,8.388,2818,2799,19,0.103815,Não,Substituição em PL4: 'attached' → 'Nauliza',2855
+39,8.388,2818,2811,7,0.43408,Não,"Substituição em PL3: 'Zuipen' → 'Carmen, Act II, No.17 Duo (continued...): Au quartier! pour l'appel (Carmen/Don José)'",2855
+40,8.388,2818,2775,43,0.005938,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Strawberry Huracan'",2855
+41,8.388,2818,2818,0,1.0,Sim,Troca inter-playlist: 'The Demander' (PL1) ↔ 'Transgender' (PL4),2855
+42,8.388,2818,2750,68,0.000301,Não,Substituição em PL4: 'I Ain't Worried' → 'Teddy Bear / Hound Dog',2855
+43,8.388,2818,2861,-43,1.0,Sim,Substituição em PL4: 'Tell Me Now' → 'Jamais Serão',2855
+44,8.388,2861,2898,-37,1.0,Sim,Substituição em PL4: 'The Demander' → 'Selfish',2861
+45,8.388,2898,2898,0,1.0,Sim,Troca inter-playlist: 'attached' (PL4) ↔ 'Super Freaky Girl' (PL2),2898
+46,8.388,2898,2838,60,0.000782,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Chicago (Jersey Club)',2898
+47,8.388,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Selfish' (PL4) ↔ 'As It Was' (PL2),2898
+48,8.388,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Las Frutas' (PL4) ↔ 'Zuipen' (PL3),2898
+49,8.388,2898,2892,6,0.489042,Sim,Substituição em PL2: 'Oriente' → 'Come to House',2898
+50,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL4) ↔ 'Unholy (feat. Kim Petras)' (PL2),2898
+51,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'A los Que Se Han Apagado' (PL4),2898
+52,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'I Ain't Worried' (PL4),2898
+53,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'Another Love' (PL2),2898
+54,8.388,2892,2868,24,0.057198,Não,Substituição em PL4: 'Jamais Serão' → 'What's the Deal',2898
+55,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'attached' (PL2) ↔ 'Another Love' (PL4),2898
+56,8.388,2892,2892,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL2) ↔ 'attached' (PL4),2898
+57,8.388,2892,2900,-8,1.0,Sim,Substituição em PL4: 'Pub Feed' → 'O Tempo Passou',2898
+58,8.388,2900,2900,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'La Bachata' (PL4),2900
+59,8.388,2900,2900,0,1.0,Sim,Substituição em PL4: 'Zuipen' → 'Ce que tu ne sais pas',2900
+60,8.388,2900,2844,56,0.001261,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Buffalo Nickel',2900
+61,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'Super Freaky Girl' (PL4),2900
+62,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL2) ↔ 'Glimpse of Us' (PL4),2900
+63,2.5164,2900,2848,52,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Feed My Hunger (No Shade)',2900
+64,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL1) ↔ 'Come to House' (PL2),2900
+65,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL4) ↔ 'As It Was' (PL2),2900
+66,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),2900
+67,2.5164,2900,2849,51,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'There For You',2900
+68,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Roll Your Hands' (PL2) ↔ 'I Ain't Worried' (PL4),2900
+69,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL4) ↔ 'Sunsetz' (PL1),2900
+70,2.5164,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Neverita' (PL2) ↔ 'As It Was' (PL4),2900
+71,2.5164,2900,2841,59,0.0,Não,Substituição em PL2: 'Hands Up - Single Version' → 'Yathra',2900
+72,2.5164,2900,2898,2,0.451678,Sim,Substituição em PL4: 'O Tempo Passou' → 'Winter Bear',2900
+73,2.5164,2898,2868,30,7e-06,Não,Substituição em PL2: 'Hands Up - Single Version' → 'Beynim Yok',2900
+74,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Las Frutas' (PL3) ↔ 'Ce que tu ne sais pas' (PL4),2900
+75,2.5164,2898,2867,31,4e-06,Não,Substituição em PL4: 'Sunsetz' → 'Rajvaadi Odhni',2900
+76,2.5164,2898,2894,4,0.204013,Não,Substituição em PL3: 'Ce que tu ne sais pas' → 'Les voyages immobiles - 2016 Remastered',2900
+77,2.5164,2898,2834,64,0.0,Não,Substituição em PL2: 'Levels - Radio Edit' → 'Party - Video Mix',2900
+78,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Las Frutas' (PL4) ↔ 'Ce que tu ne sais pas' (PL3),2900
+79,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Las Frutas' (PL3) ↔ 'Ce que tu ne sais pas' (PL4),2900
+80,2.5164,2898,2839,59,0.0,Não,Substituição em PL1: 'i was all over her' → 'Melodische Schieflage - Techno Minimal Bomb Mix',2900
+81,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'Sunsetz' (PL4),2900
+82,2.5164,2898,2878,20,0.000353,Não,Substituição em PL3: 'Wish You Were Here' → 'REBELS NEVER DIE',2900
+83,2.5164,2898,2877,21,0.000238,Não,Substituição em PL4: 'Sweater Weather' → 'The Drug In Me Is You',2900
+84,2.5164,2898,2867,31,4e-06,Não,Substituição em PL4: 'La Bachata' → 'The Brightside',2900
+85,2.5164,2898,2833,65,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'No Tengo Dinero - En Vivo',2900
+86,2.5164,2898,2822,76,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Mi Tango Triste',2900
+87,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Winter Bear' (PL4) ↔ 'i was all over her' (PL1),2900
+88,2.5164,2898,2822,76,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'What the Fuck?',2900
+89,2.5164,2898,2849,49,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Distance',2900
+90,2.5164,2898,2887,11,0.012634,Não,Substituição em PL4: 'Roll Your Hands' → 'Everything About You',2900
+91,2.5164,2898,2835,63,0.0,Não,Substituição em PL4: 'Sweater Weather' → 'Sukoon',2900
+92,2.5164,2898,2898,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'I Ain't Worried' (PL2)",2900
+93,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Ce que tu ne sais pas' (PL3) ↔ 'Alien Blues' (PL4),2900
+94,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL1) ↔ 'Alien Blues' (PL3),2900
+95,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'I Ain't Worried' (PL4),2900
+96,2.5164,2898,2827,71,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Take a razor to your head',2900
+97,2.5164,2898,2862,36,1e-06,Não,Substituição em PL1: 'Alien Blues' → 'The Born King',2900
+98,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL3) ↔ 'As It Was' (PL2),2900
+99,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Ce que tu ne sais pas' (PL4) ↔ 'As It Was' (PL3),2900
+100,2.5164,2898,2898,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'Levels - Radio Edit' (PL2),2900
+101,0.75492,2898,2898,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Neverita' (PL4),2900
+102,0.75492,2898,2844,54,0.0,Não,Substituição em PL3: 'Before I Forget' → 'Granada - Live From The Detroit Opera House',2900
+103,0.75492,2898,2898,0,1.0,Sim,Troca inter-playlist: 'Through My Fingers' (PL1) ↔ 'Levels - Radio Edit' (PL4),2900
+104,0.75492,2898,2891,7,9.4e-05,Não,"Substituição em PL3: 'Ce que tu ne sais pas' → 'Guitarras, Lloren Guitarras - Remastered'",2900
+105,0.75492,2898,2900,-2,1.0,Sim,Substituição em PL4: 'Jamais Serão' → 'Low of Solipsism',2900
+106,0.75492,2900,2836,64,0.0,Não,Substituição em PL4: 'As It Was' → 'Trying To Breathe',2900
+107,0.75492,2900,2900,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL2) ↔ 'Low of Solipsism' (PL4),2900
+108,0.75492,2900,2802,98,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'Yo Me Quedo',2900
+109,0.75492,2900,2836,64,0.0,Não,Substituição em PL2: 'Unholy (feat. Kim Petras)' → 'Hello',2900
+110,0.75492,2900,2864,36,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'Roll The Dice (feat. Stamina MC & Lily Allen)',2900
+111,0.75492,2900,2925,-25,1.0,Sim,Substituição em PL4: 'Roll Your Hands' → 'The Garbage Truck Song',2900
+112,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL4) ↔ 'Neverita' (PL2),2925
+113,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'Low of Solipsism' (PL2) ↔ 'As It Was' (PL4),2925
+114,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL2) ↔ 'The Garbage Truck Song' (PL4),2925
+115,0.75492,2925,2862,63,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'Ruperta',2925
+116,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL2) ↔ 'I'm Good (Blue)' (PL4),2925
+117,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL1) ↔ 'Low of Solipsism' (PL4),2925
+118,0.75492,2925,2924,1,0.265898,Não,Substituição em PL4: 'Los Tres De Zacatecas' → 'Galanteador',2925
+119,0.75492,2925,2855,70,0.0,Não,Substituição em PL4: 'La Bachata' → 'La Basurita',2925
+120,0.75492,2925,2925,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'I Ain't Worried' (PL4),2925
+121,0.75492,2925,2931,-6,1.0,Sim,Substituição em PL4: 'Las Frutas' → 'Pueden Decir - Balada',2925
+122,0.75492,2931,2931,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL1) ↔ 'Transgender' (PL2),2931
+123,0.75492,2931,2875,56,0.0,Não,Substituição em PL2: 'Another Love' → 'Quanto Custa?',2931
+124,0.75492,2931,2897,34,0.0,Não,"Substituição em PL4: 'Pueden Decir - Balada' → 'Something About You - 7"" Version'",2931
+125,0.75492,2931,2877,54,0.0,Não,Substituição em PL4: 'La Bachata' → 'Pidit - Love Story Part 2',2931
+126,0.75492,2931,2934,-3,1.0,Sim,Substituição em PL4: 'Pueden Decir - Balada' → 'Moonlight',2931
+127,0.75492,2934,2934,0,1.0,Sim,Troca inter-playlist: 'The Garbage Truck Song' (PL2) ↔ 'Moonlight' (PL4),2934
+128,0.75492,2934,2934,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL1) ↔ 'Through My Fingers' (PL4),2934
+129,0.75492,2934,2934,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL4) ↔ 'Sunsetz' (PL1),2934
+130,0.75492,2934,2934,0,1.0,Sim,Troca inter-playlist: 'i was all over her' (PL4) ↔ 'Winter Bear' (PL1),2934
+131,0.75492,2934,2936,-2,1.0,Sim,Substituição em PL1: 'Through My Fingers' → 'Lumartes',2934
+132,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL2) ↔ 'Super Freaky Girl' (PL4),2936
+133,0.75492,2936,2838,98,0.0,Não,Substituição em PL2: 'I'm Good (Blue)' → 'Mamma Maria',2936
+134,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL2) ↔ 'Transgender' (PL1),2936
+135,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'The Garbage Truck Song' (PL4) ↔ 'I Ain't Worried' (PL2),2936
+136,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'Neverita' (PL4) ↔ 'Unholy (feat. Kim Petras)' (PL2),2936
+137,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL4) ↔ 'Ce que tu ne sais pas' (PL3),2936
+138,0.75492,2936,2936,0,1.0,Sim,Substituição em PL4: 'Winter Bear' → 'Born Yesterday',2936
+139,0.75492,2936,2877,59,0.0,Não,"Substituição em PL2: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'A Paz do Teu Sorriso - Ao Vivo'",2936
+140,0.75492,2936,2889,47,0.0,Não,Substituição em PL2: 'Another Love' → 'The Warriors',2936
+141,0.75492,2936,2936,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL1) ↔ 'Sunsetz' (PL4),2936
+142,0.75492,2936,2896,40,0.0,Não,Substituição em PL4: 'Levels - Radio Edit' → 'Şansin Bol Olsun',2936
+143,0.75492,2936,2986,-50,1.0,Sim,Substituição em PL4: 'Ce que tu ne sais pas' → 'La Curiosidad',2936
+144,0.75492,2986,2986,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL4) ↔ 'Lumartes' (PL1),2986
+145,0.75492,2986,2916,70,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Splish Splash',2986
+146,0.75492,2986,3009,-23,1.0,Sim,Substituição em PL4: 'Born Yesterday' → 'Dancing',2986
+147,0.75492,3009,2976,33,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Canción para mañana',3009
+148,0.75492,3009,2948,61,0.0,Não,Substituição em PL1: 'K.' → 'Don't Kill Me',3009
+149,0.75492,3009,2948,61,0.0,Não,Substituição em PL1: 'Shootout' → 'Cross of Fire',3009
+150,0.75492,3009,2927,82,0.0,Não,Substituição em PL2: 'Another Love' → 'Ding Dong The Witch Is Dead',3009
+151,0.226476,3009,3009,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2) ↔ 'As It Was' (PL4)",3009
+152,0.226476,3009,3009,0,1.0,Sim,Troca inter-playlist: 'Levels - Radio Edit' (PL1) ↔ 'Transgender' (PL2),3009
+153,0.226476,3009,2994,15,0.0,Não,Substituição em PL2: 'Moonlight' → 'Wie du (Reprise)',3009
+154,0.226476,3009,2965,44,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'No One Like You',3009
+155,0.226476,3009,2967,42,0.0,Não,"Substituição em PL4: 'Sweater Weather' → 'This Is Me - Dave Audé Remix; from ""The Greatest Showman""'",3009
+156,0.226476,3009,2927,82,0.0,Não,Substituição em PL3: 'Alien Blues' → 'Fever',3009
+157,0.226476,3009,2948,61,0.0,Não,Substituição em PL2: 'Glimpse of Us' → 'El Caiman (Se Va El Caiman)',3009
+158,0.226476,3009,3009,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL1) ↔ 'Levels - Radio Edit' (PL2),3009
+159,0.226476,3009,3009,0,1.0,Sim,Troca inter-playlist: 'attached' (PL2) ↔ 'Sweater Weather' (PL4),3009
+160,0.226476,3009,2999,10,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Ruff Ryders' Anthem',3009
+161,0.226476,3009,2993,16,0.0,Não,Substituição em PL1: 'A los Que Se Han Apagado' → 'Growing Meat',3009
+162,0.226476,3009,3009,0,1.0,Sim,Troca inter-playlist: 'attached' (PL4) ↔ 'Another Love' (PL2),3009
+163,0.226476,3009,2989,20,0.0,Não,Substituição em PL3: 'Alien Blues' → '死神',3009
+164,0.226476,3009,3009,0,1.0,Sim,Troca inter-playlist: 'Alien Blues' (PL3) ↔ 'Low of Solipsism' (PL1),3009
+165,0.226476,3009,2940,69,0.0,Não,"Substituição em PL2: 'I'm Good (Blue)' → 'Dom, Lomp & Mellow - DJ Danjgo Mash-Up'",3009
+166,0.226476,3009,2978,31,0.0,Não,Substituição em PL2: 'The Garbage Truck Song' → 'COLD HEART',3009
+167,0.226476,3009,3029,-20,1.0,Sim,Substituição em PL3: 'Low of Solipsism' → 'Mad Love',3009
+168,0.226476,3029,2985,44,0.0,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → 'Roll Over Beethoven - Remastered 2009'",3029
+169,0.226476,3029,2936,93,0.0,Não,Substituição em PL4: 'Another Love' → 'Ángel Para Un Final',3029
+170,0.226476,3029,2953,76,0.0,Não,Substituição em PL4: 'Another Love' → 'Caminito - Remastered',3029
+171,0.226476,3029,3029,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL4) ↔ 'Mad Love' (PL3),3029
+172,0.226476,3029,3031,-2,1.0,Sim,Substituição em PL4: 'Lumartes' → 'The Wheels on the Bus',3029
+173,0.226476,3031,3031,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL4) ↔ 'I'm Good (Blue)' (PL2)",3031
+174,0.226476,3031,3031,0,1.0,Sim,"Troca inter-playlist: 'Hands Up - Single Version' (PL3) ↔ 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL2)",3031
+175,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'I Ain't Worried' (PL4),3031
+176,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'The Garbage Truck Song' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),3031
+177,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL4) ↔ 'Selfish' (PL2),3031
+178,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL4) ↔ 'Glimpse of Us' (PL2),3031
+179,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Neverita' (PL2) ↔ 'Selfish' (PL4),3031
+180,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Selfish' (PL2) ↔ 'La Bachata' (PL4),3031
+181,0.226476,3031,3031,0,1.0,Sim,"Troca inter-playlist: 'Quevedo: Bzrp Music Sessions, Vol. 52' (PL3) ↔ 'The Wheels on the Bus' (PL4)",3031
+182,0.226476,3031,2968,63,0.0,Não,Substituição em PL2: 'Super Freaky Girl' → 'Mama Says No',3031
+183,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Moonlight' (PL2) ↔ 'The Wheels on the Bus' (PL3),3031
+184,0.226476,3031,2938,93,0.0,Não,Substituição em PL4: 'Another Love' → 'Eyes Wide Open',3031
+185,0.226476,3031,2969,62,0.0,Não,Substituição em PL1: 'i was all over her' → 'Leicester',3031
+186,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Dancing' (PL4) ↔ 'La Bachata' (PL2),3031
+187,0.226476,3031,2948,83,0.0,Não,Substituição em PL2: 'As It Was' → 'Voodoo People - Wonder Remix',3031
+188,0.226476,3031,2964,67,0.0,Não,Substituição em PL1: 'Chamber Of Reflection' → 'Gentle Push',3031
+189,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Selfish' (PL4) ↔ 'The Wheels on the Bus' (PL2),3031
+190,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'Super Freaky Girl' (PL2),3031
+191,0.226476,3031,2938,93,0.0,Não,Substituição em PL4: 'Neverita' → 'Follow Me',3031
+192,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'Neverita' (PL4),3031
+193,0.226476,3031,2981,50,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'x10',3031
+194,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'Neverita' (PL2),3031
+195,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'La Bachata' (PL4) ↔ 'Super Freaky Girl' (PL2),3031
+196,0.226476,3031,3009,22,0.0,Não,Substituição em PL4: 'Me Porto Bonito' → 'Riot',3031
+197,0.226476,3031,2956,75,0.0,Não,"Substituição em PL4: 'Me Porto Bonito' → 'The Villages, Florida'",3031
+198,0.226476,3031,2957,74,0.0,Não,Substituição em PL2: 'As It Was' → 'Wah Some Grades',3031
+199,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'The Wheels on the Bus' (PL4) ↔ 'Moonlight' (PL3),3031
+200,0.226476,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Another Love' (PL4) ↔ 'I'm Good (Blue)' (PL2),3031
+201,0.067943,3031,2994,37,0.0,Não,Substituição em PL1: 'Sunsetz' → 'am I not enough for you',3031
+202,0.067943,3031,2997,34,0.0,Não,"Substituição em PL3: 'The Wheels on the Bus' → 'Downton Abbey Suite (From ""Downton Abbey"")'",3031
+203,0.067943,3031,2989,42,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'PvP',3031
+204,0.067943,3031,2986,45,0.0,Não,Substituição em PL4: 'I'm Good (Blue)' → 'アイム・ア・ビリーバー',3031
+205,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'The Wheels on the Bus' (PL3) ↔ 'Unholy (feat. Kim Petras)' (PL4),3031
+206,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'Transgender' (PL2),3031
+207,0.067943,3031,3029,2,0.0,Não,Substituição em PL2: 'Dancing' → 'Can't Come To The Phone',3031
+208,0.067943,3031,2960,71,0.0,Não,Substituição em PL2: 'Sweater Weather' → '大雄',3031
+209,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL3),3031
+210,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL3) ↔ 'Me Porto Bonito' (PL4),3031
+211,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Selfish' (PL2) ↔ 'Transgender' (PL4),3031
+212,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'I'm Good (Blue)' (PL4),3031
+213,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL4) ↔ 'Another Love' (PL2),3031
+214,0.067943,3031,2962,69,0.0,Não,Substituição em PL4: 'Neverita' → 'Dark Hollow',3031
+215,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'The Garbage Truck Song' (PL4),3031
+216,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Dancing' (PL2) ↔ 'Another Love' (PL4),3031
+217,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL2) ↔ 'The Wheels on the Bus' (PL4),3031
+218,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Sweater Weather' (PL4) ↔ 'I Ain't Worried' (PL2),3031
+219,0.067943,3031,2976,55,0.0,Não,"Substituição em PL4: 'Quevedo: Bzrp Music Sessions, Vol. 52' → '1° De Julho'",3031
+220,0.067943,3031,2996,35,0.0,Não,Substituição em PL4: 'Selfish' → 'タイムストレッチ',3031
+221,0.067943,3031,3012,19,0.0,Não,Substituição em PL4: 'Mad Love' → 'Preciso Confiar',3031
+222,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Dancing' (PL4) ↔ 'Super Freaky Girl' (PL2),3031
+223,0.067943,3031,3003,28,0.0,Não,Substituição em PL4: 'Super Freaky Girl' → 'Lemonade - Ukulele Version',3031
+224,0.067943,3031,2970,61,0.0,Não,Substituição em PL3: 'Me Porto Bonito' → 'Convaleciente',3031
+225,0.067943,3031,2978,53,0.0,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Big Mountain',3031
+226,0.067943,3031,3031,0,1.0,Sim,Troca inter-playlist: 'Selfish' (PL4) ↔ 'La Bachata' (PL2),3031
+227,0.067943,3031,2984,47,0.0,Não,Substituição em PL4: 'Neverita' → 'Brilhe',3031
+228,0.067943,3031,3060,-29,1.0,Sim,Substituição em PL2: 'The Wheels on the Bus' → 'Disconnected',3031
+229,0.067943,3060,2996,64,0.0,Não,Substituição em PL4: 'La Bachata' → 'Paralyzed',3060
+230,0.067943,3060,3029,31,0.0,Não,Substituição em PL2: 'attached' → 'Accanto A Te',3060
+231,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'Unholy (feat. Kim Petras)' (PL2) ↔ 'I Ain't Worried' (PL4),3060
+232,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'I'm Good (Blue)' (PL2) ↔ 'La Bachata' (PL4),3060
+233,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL4) ↔ 'La Bachata' (PL2),3060
+234,0.067943,3060,3022,38,0.0,Não,Substituição em PL2: 'I Ain't Worried' → 'Say To Me',3060
+235,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'Moonlight' (PL4) ↔ 'Disconnected' (PL2),3060
+236,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'attached' (PL2) ↔ 'Glimpse of Us' (PL4),3060
+237,0.067943,3060,3012,48,0.0,Não,Substituição em PL3: 'Me Porto Bonito' → 'RAREST SHXT.',3060
+238,0.067943,3060,2994,66,0.0,Não,Substituição em PL4: 'Unholy (feat. Kim Petras)' → 'Blue Dream (Softly)',3060
+239,0.067943,3060,3037,23,0.0,Não,Substituição em PL2: 'Transgender' → 'Illuminate - Sub Focus & Wilkinson',3060
+240,0.067943,3060,3060,0,1.0,Sim,Troca inter-playlist: 'The Garbage Truck Song' (PL2) ↔ 'Super Freaky Girl' (PL4),3060
+241,0.020383,3060,3060,0,1.0,Sim,Troca inter-playlist: 'Neverita' (PL4) ↔ 'Super Freaky Girl' (PL2),3060
+242,0.020383,3060,3060,0,1.0,Sim,Troca inter-playlist: 'Neverita' (PL2) ↔ 'I'm Good (Blue)' (PL4),3060
+243,0.020383,3060,3014,46,0.0,Não,Substituição em PL4: 'Mad Love' → 'Fan Foar Nei Achter',3060
+244,0.020383,3060,3001,59,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Rick James Style',3060
+245,0.020383,3060,3060,0,1.0,Sim,Troca inter-playlist: 'I Ain't Worried' (PL2) ↔ 'Unholy (feat. Kim Petras)' (PL4),3060
+246,0.020383,3060,3019,41,0.0,Não,Substituição em PL2: 'Hands Up - Single Version' → 'Music Made Addict - Headhunterz & Wildstylez Remix (Radio Edit)',3060
+247,0.020383,3060,3060,0,1.0,Sim,Troca inter-playlist: 'As It Was' (PL2) ↔ 'Neverita' (PL4),3060
+248,0.020383,3060,3061,-1,1.0,Sim,Substituição em PL4: 'Mad Love' → 'The Eve',3060
+249,0.020383,3061,3042,19,0.0,Não,Substituição em PL2: 'Moonlight' → 'Driller Killer',3061
+250,0.020383,3061,2992,69,0.0,Não,Substituição em PL4: 'As It Was' → 'High Way',3061
+251,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL2) ↔ 'As It Was' (PL4),3061
+252,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL2) ↔ 'attached' (PL4),3061
+253,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Me Porto Bonito' (PL3) ↔ 'The Eve' (PL4),3061
+254,0.020383,3061,2995,66,0.0,Não,Substituição em PL1: 'Shootout' → 'Strike',3061
+255,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Glimpse of Us' (PL4) ↔ 'Sweater Weather' (PL2),3061
+256,0.020383,3061,3023,38,0.0,Não,Substituição em PL2: 'Dancing' → 'Come See Me',3061
+257,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'As It Was' (PL2),3061
+258,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Transgender' (PL4) ↔ 'Super Freaky Girl' (PL2),3061
+259,0.020383,3061,3029,32,0.0,Não,Substituição em PL1: 'Levels - Radio Edit' → 'Tarcu',3061
+260,0.020383,3061,3008,53,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'The Whiskey or the Coal',3061
+261,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Disconnected' (PL4) ↔ 'Moonlight' (PL2),3061
+262,0.020383,3061,3032,29,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Stay - Jonas Blue Remix',3061
+263,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'The Eve' (PL3) ↔ 'Neverita' (PL2),3061
+264,0.020383,3061,3042,19,0.0,Não,Substituição em PL4: 'As It Was' → 'Flaming Hot Cheetos',3061
+265,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Dancing' (PL2) ↔ 'Neverita' (PL3),3061
+266,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'attached' (PL2) ↔ 'Moonlight' (PL4),3061
+267,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Super Freaky Girl' (PL4) ↔ 'The Eve' (PL2),3061
+268,0.020383,3061,3014,47,0.0,Não,Substituição em PL2: 'Disconnected' → 'Wolf - Judge Bitch Remix',3061
+269,0.020383,3061,3061,0,1.0,Sim,Troca inter-playlist: 'Hands Up - Single Version' (PL2) ↔ 'attached' (PL4),3061
+270,0.020383,3061,3002,59,0.0,Não,Substituição em PL4: 'La Curiosidad' → 'Bastard Angel',3061

@@ -1,4 +1,5 @@
 import random
+import time
 random.seed(42)
 
 from src.carrega_dados import carregar_dataset
@@ -30,6 +31,7 @@ print("SIMULATED ANNEALING — Esquema do Enunciado")
 print(f"M = {M_ENUNCIADO} | Total iterações: {sum(M_ENUNCIADO)}")
 print("=" * 60)
 
+inicio_sa_enun = time.time()
 melhor_sol_1, melhor_pop_1 = simulated_annealing(
     solucao_inicial,
     df,
@@ -37,6 +39,7 @@ melhor_sol_1, melhor_pop_1 = simulated_annealing(
     caminho_output="output/output_sa_enunciado.csv",
     esquema_M=M_ENUNCIADO
 )
+tempo_sa_enun = time.time() - inicio_sa_enun
 
 adm_1, msgs_1 = verificar_admissibilidade(melhor_sol_1, df)
 print(f"\nVerificação de admissibilidade:")
@@ -53,6 +56,8 @@ print("=" * 60)
 
 # Reiniciar a partir da mesma solução inicial para comparação justa
 random.seed(42)
+
+inicio_sa_alt = time.time()
 melhor_sol_2, melhor_pop_2 = simulated_annealing(
     solucao_inicial,
     df,
@@ -60,6 +65,8 @@ melhor_sol_2, melhor_pop_2 = simulated_annealing(
     caminho_output="output/output_sa_alternativo.csv",
     esquema_M=M_ALTERNATIVO
 )
+tempo_sa_alt = time.time() - inicio_sa_alt
+
 
 adm_2, msgs_2 = verificar_admissibilidade(melhor_sol_2, df)
 print(f"\nVerificação de admissibilidade:")
@@ -73,8 +80,10 @@ print("\n" + "=" * 60)
 print("RESUMO COMPARATIVO")
 print("=" * 60)
 print(f"Solução inicial (heurística):     {pop_inicial}")
-print(f"SA — Esquema enunciado:           {melhor_pop_1}  ({melhor_pop_1 - pop_inicial:+d})")
-print(f"SA — Esquema alternativo:         {melhor_pop_2}  ({melhor_pop_2 - pop_inicial:+d})")
+print(f"SA Esquema enunciado:           {melhor_pop_1}  ({melhor_pop_1 - pop_inicial:+d})")
+print(f"SA Esquema alternativo:         {melhor_pop_2}  ({melhor_pop_2 - pop_inicial:+d})")
+print(f"SA Esquema enunciado:   {tempo_sa_enun:.2f} segundos")
+print(f"SA Esquema alternativo: {tempo_sa_alt:.2f} segundos")
 
 # Guardar músicas da melhor solução encontrada (esquema alternativo)
 guardar_melhor_solucao(melhor_sol_2, df, "output/melhor_sa.csv")

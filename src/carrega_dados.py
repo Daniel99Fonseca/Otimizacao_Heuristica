@@ -60,6 +60,21 @@ def carregar_dataset():
     # (ex: single vs álbum) — ficamos com a de maior popularidade
     df = df.drop_duplicates(subset=['artists', 'track_name'], keep='first')
 
+    # Géneros não adequados para rádio convencional
+    GENEROS_EXCLUIR = ['sleep', 'ambient', 'study']
+
+    # Aplicar após deduplicação
+    df = df[~df['track_genre'].isin(GENEROS_EXCLUIR)]
+
+    # Filtro de features para apanhar casos que escapam ao género
+    df = df[
+        ~(
+            (df['energy']       < 0.05) &
+            (df['danceability'] < 0.05) &
+            (df['tempo']        < 10)
+        )
+    ]
+
     # Resetar o índice para ficar limpo
     df = df.reset_index(drop=True)
 

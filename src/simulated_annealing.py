@@ -26,7 +26,7 @@ M_ENUNCIADO       = [10, 10, 10, 5, 5]
 TAXA_ARREFECIMENTO = 0.3
 
 # Esquema alternativo (mais iterações para explorar melhor)
-M_ALTERNATIVO = [50, 50, 50, 50, 50, 30, 30, 30, 20, 20]
+M_ALTERNATIVO = [30, 30, 40, 50, 50, 40, 30]
 
 def simulated_annealing(solucao_inicial, df, musicas_disponiveis,
                         caminho_output, esquema_M=None):

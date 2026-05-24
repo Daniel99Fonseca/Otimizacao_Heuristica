@@ -1,5 +1,7 @@
 import random
+import time 
 random.seed(42)
+
 
 from src.carrega_dados import carregar_dataset
 from src.algoritmo_genetico import algoritmo_genetico
@@ -13,7 +15,7 @@ from src.heuristica_construtiva import heuristica_construtiva
 
 # Parâmetros do AG
 N_CROMOSSOMAS = 20
-N_GERACOES    = 50
+N_GERACOES    = 30
 PROB_MUTACAO  = 0.1
 K_TORNEIO     = 5
 
@@ -34,6 +36,7 @@ print(f"População: {N_CROMOSSOMAS} | Gerações: {N_GERACOES} | "
       f"P(mutação): {PROB_MUTACAO} | Torneio k={K_TORNEIO}")
 print("=" * 60 + "\n")
 
+inicio_ag = time.time()
 melhor_solucao, melhor_pop = algoritmo_genetico(
     df,
     n_cromossomas  = N_CROMOSSOMAS,
@@ -42,6 +45,7 @@ melhor_solucao, melhor_pop = algoritmo_genetico(
     caminho_output = "output/output_ag.csv",
     k_torneio      = K_TORNEIO
 )
+tempo_ag = time.time() - inicio_ag
 
 # --- 3. Verificar admissibilidade ---
 print("\n--- Verificação de Admissibilidade ---")
@@ -64,5 +68,6 @@ print("=" * 60)
 print(f"Heurística construtiva: {pop_heuristica}")
 print(f"Algoritmo Genético:     {melhor_pop}  ({melhor_pop - pop_heuristica:+d})")
 print(f"Solução admissível:     {adm}")
+print(f"AG — Tempo total: {tempo_ag:.2f} segundos")
 
 guardar_melhor_solucao(melhor_solucao, df, "output/melhor_ag.csv")
