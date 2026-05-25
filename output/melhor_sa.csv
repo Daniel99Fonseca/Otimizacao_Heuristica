@@ -1,25 +1,24 @@
 playlist,track_name,artists,popularity,duracao_min,instrumentalness,tempo,danceability,liveness,valence,is_acoustic
-PL1,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL1,YKWIM?,Yot Club,84,3.55,0.873,123.7,0.372,0.287,0.228,False
 PL1,Alien Blues,Vundabar,82,2.6,0.908,82.3,0.467,0.088,0.433,False
 PL1,Levels - Radio Edit,Avicii,79,3.33,0.828,126.0,0.584,0.309,0.464,False
 PL1,K.,Cigarettes After Sex,78,5.33,0.846,93.7,0.454,0.137,0.327,False
 PL1,Sunsetz,Cigarettes After Sex,78,3.59,0.795,75.4,0.405,0.097,0.131,False
-PL1,Shootout,Izzamuzzic;Julien Marchal,78,4.92,0.906,87.0,0.663,0.109,0.553,False
 PL1,i was all over her,salvia palth,77,2.69,0.853,104.6,0.529,0.116,0.06,False
-PL1,Come to House,Mr. Lee,29,5.03,0.917,122.6,0.591,0.11,0.688,False
-PL1,A los Que Se Han Apagado,Eterna Inocencia,29,2.38,0.699,83.6,0.288,0.113,0.715,False
-PL2,Unholy (feat. Kim Petras),Sam Smith;Kim Petras,100,2.62,0.0,131.1,0.714,0.266,0.238,False
-PL2,I'm Good (Blue),David Guetta;Bebe Rexha,98,2.92,0.0,128.0,0.561,0.371,0.304,False
+PL1,Transgender,Crystal Castles,76,3.08,0.847,137.9,0.522,0.24,0.036,False
+PL1,Apologize - Piano Arrangement,Ingrid Olsson,40,3.61,0.956,99.9,0.614,0.101,0.123,False
+PL1,GOD Will Provide,Terrence Parker,5,6.88,0.936,122.0,0.808,0.047,0.991,False
+PL2,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
+PL2,As It Was,Harry Styles,95,2.79,0.001,173.9,0.52,0.311,0.662,False
 PL2,Glimpse of Us,Joji,94,3.89,0.0,169.9,0.44,0.141,0.268,False
-PL2,Another Love,Tom Odell,93,4.07,0.0,122.8,0.445,0.094,0.131,False
-PL2,Neverita,Bad Bunny,93,2.89,0.0,122.0,0.876,0.143,0.428,False
 PL2,Sweater Weather,The Neighbourhood,93,4.01,0.018,124.1,0.612,0.101,0.398,False
-PL2,Transgender,Crystal Castles,76,3.08,0.847,137.9,0.522,0.24,0.036,False
-PL2,Hands Up - Single Version,Ottawan,66,3.48,0.0,123.3,0.888,0.375,0.992,False
-PL2,Dancing,Dubdogz;Liu;Dubdisko,64,2.71,0.0,124.0,0.813,0.076,0.535,False
-PL2,Selfish,Connor Price;Nic D,55,1.88,0.0,180.0,0.814,0.114,0.57,False
-PL2,Moonlight,Bount,37,3.2,0.0,160.0,0.662,0.091,0.481,False
-PL3,Me Porto Bonito,Bad Bunny;Chencho Corleone,97,2.98,0.0,92.0,0.911,0.093,0.425,False
+PL2,Super Freaky Girl,Nicki Minaj,92,2.85,0.0,133.0,0.95,0.309,0.912,False
+PL2,Chamber Of Reflection,Mac DeMarco,82,3.86,0.914,131.0,0.538,0.102,0.506,False
+PL2,ZOO,TAEYONG;JENO;HENDERY;YANGYANG;GISELLE,71,2.96,0.0,122.9,0.823,0.057,0.629,False
+PL2,Judge,Mankirt Aulakh,63,3.02,0.0,181.8,0.66,0.173,0.61,False
+PL2,Rampage (Free Fire Rampage Theme Song),Dimitri Vegas & Like Mike,61,2.66,0.729,139.0,0.571,0.15,0.176,False
+PL2,B2B,James Hype;Tita Lau,54,2.67,0.568,124.0,0.799,0.064,0.922,False
+PL2,"a world of chaos (feat. Rxseboy, Jomie & Ivri)",Powfu;Rxseboy;Jomie;Ivri,52,2.71,0.0,136.0,0.777,0.114,0.652,False
 PL3,Hold On,Chord Overstreet,82,3.31,0.0,119.9,0.618,0.083,0.167,True
 PL3,I'm Yours,Jason Mraz,80,4.05,0.0,151.0,0.703,0.097,0.712,True
 PL3,Wish You Were Here,Pink Floyd,77,5.58,0.011,122.9,0.481,0.832,0.375,False
@@ -28,15 +27,16 @@ PL3,Pump It Louder,Tiësto;Black Eyed Peas,76,2.64,0.0,126.0,0.66,0.834,0.543,Fa
 PL3,Pano,Zack Tabudlo,75,4.24,0.015,174.8,0.375,0.191,0.415,True
 PL3,Give Me Your Forever,Zack Tabudlo,74,4.08,0.0,99.9,0.627,0.093,0.301,True
 PL3,Call on Me - Radio Mix,Eric Prydz,74,2.86,0.001,126.3,0.597,0.839,0.447,False
-PL4,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap;Quevedo,99,3.32,0.033,128.0,0.621,0.23,0.55,False
+PL3,Kabhi Khushi Kabhie Gham,Kris Bowers,57,3.48,0.952,96.0,0.448,0.132,0.418,False
+PL4,Unholy (feat. Kim Petras),Sam Smith;Kim Petras,100,2.62,0.0,131.1,0.714,0.266,0.238,False
 PL4,La Bachata,Manuel Turizo,98,2.71,0.0,125.0,0.835,0.218,0.85,False
+PL4,Me Porto Bonito,Bad Bunny;Chencho Corleone,97,2.98,0.0,92.0,0.911,0.093,0.425,False
 PL4,I Ain't Worried,OneRepublic,96,2.47,0.001,140.0,0.704,0.055,0.825,False
-PL4,As It Was,Harry Styles,95,2.79,0.001,173.9,0.52,0.311,0.662,False
-PL4,Super Freaky Girl,Nicki Minaj,92,2.85,0.0,133.0,0.95,0.309,0.912,False
-PL4,La Curiosidad,Jay Wheeler;DJ Nelson;Myke Towers,80,3.65,0.001,90.0,0.845,0.108,0.68,False
-PL4,The Eve,EXO,66,2.93,0.0,135.1,0.636,0.293,0.516,False
-PL4,Disconnected,James Hype;Tita Lau,63,3.24,0.176,126.0,0.842,0.07,0.594,False
-PL4,The Garbage Truck Song,Blippi,57,3.05,0.0,129.9,0.695,0.077,0.96,False
-PL4,attached,eli.,54,3.67,0.0,143.9,0.753,0.083,0.049,False
-PL4,Los Tres De Zacatecas,Banda Autentica de Jerez,41,1.79,0.0,119.9,0.764,0.058,0.99,False
-PL4,Round and Round We Go,Debbie Doo,27,1.24,0.0,116.0,0.769,0.03,0.991,False
+PL4,Another Love,Tom Odell,93,4.07,0.0,122.8,0.445,0.094,0.131,False
+PL4,Del Mar,Ozuna;Doja Cat;Sia,75,3.58,0.0,110.0,0.759,0.166,0.536,False
+PL4,Chasing Stars (feat. James Bay),Alesso;Marshmello;James Bay,72,2.84,0.0,92.9,0.594,0.135,0.492,False
+PL4,Hands Up - Single Version,Ottawan,66,3.48,0.0,123.3,0.888,0.375,0.992,False
+PL4,Blood // Water - King Kavalier Remix,grandson;King Kavalier,64,2.99,0.0,149.8,0.586,0.094,0.655,False
+PL4,Got A Bag,Fetty Wap,44,2.08,0.0,140.0,0.862,0.086,0.658,False
+PL4,Cabelo Loiro,Almir Sater,41,0.99,0.0,143.2,0.733,0.222,0.963,False
+PL4,Kafam 1 Milyon,Norm Ender,38,3.22,0.0,123.0,0.588,0.093,0.284,False

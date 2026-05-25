@@ -6,6 +6,8 @@
 import pandas as pd
 import os
 
+from src.carrega_dados import carregar_dataset, filtrar_pl1, filtrar_pl2, filtrar_pl3_aovivo, filtrar_pl3_acusticas, filtrar_pl4
+
 # Descobre a pasta onde o script atual está guardado
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -83,3 +85,19 @@ print()
 print("Nota: cada playlist deve ter entre 32 e 35 minutos")
 print(f"  → Estimativa de músicas por playlist: {32*60000 // int(df['duration_ms'].mean())}"
       f" a {35*60000 // int(df['duration_ms'].mean())}")
+
+# -------------------------------------------------------
+# Após limpeza 
+# -------------------------------------------------------
+print()
+print("=" * 60)
+print("APÓS LIMPEZA")
+print("=" * 60)
+
+df_2 = carregar_dataset()
+print(f"Dataset após limpeza: {len(df_2)} músicas")
+print(f"  - Candidatas PL1 (instrumentalness >= 0.66): {len(filtrar_pl1(df_2))}")
+print(f"  - Candidatas PL2 (tempo >= 120 BPM): {len(filtrar_pl2(df_2))}")
+print(f"  - Candidatas PL3 acústicas: {len(filtrar_pl3_acusticas(df_2))}")
+print(f"  - Candidatas PL3 ao vivo: {len(filtrar_pl3_aovivo(df_2))}")
+print(f"  - Candidatas PL4: {len(filtrar_pl4(df_2))}")
