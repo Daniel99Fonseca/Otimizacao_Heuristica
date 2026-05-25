@@ -65,9 +65,9 @@ def gerar_cromossoma(df):
         top_bar = top.sample(frac=1).reset_index(drop=True)
         return pd.concat([top_bar, resto], ignore_index=True)
 
+    pl3 = construir_pl3_ag(df, ids_usados)
     pl1 = construir_pl1(candidatos_baralhados(filtrar_pl1(df)), ids_usados)
     pl2 = construir_pl2(candidatos_baralhados(filtrar_pl2(df)), ids_usados)
-    pl3 = construir_pl3_ag(df, ids_usados)
     pl4 = construir_pl4(candidatos_baralhados(filtrar_pl4(df)), ids_usados)
 
     cromossoma  = {'PL1': pl1, 'PL2': pl2, 'PL3': pl3, 'PL4': pl4}

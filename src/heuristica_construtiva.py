@@ -208,9 +208,9 @@ def heuristica_construtiva(df):
     """
     ids_usados = set()
 
+    pl3 = construir_pl3(df, ids_usados)
     pl1 = construir_pl1(df, ids_usados)
     pl2 = construir_pl2(df, ids_usados)
-    pl3 = construir_pl3(df, ids_usados)
     pl4 = construir_pl4(df, ids_usados)
 
     solucao = {
