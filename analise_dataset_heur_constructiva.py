@@ -101,3 +101,35 @@ print(f"  - Candidatas PL2 (tempo >= 120 BPM): {len(filtrar_pl2(df_2))}")
 print(f"  - Candidatas PL3 acústicas: {len(filtrar_pl3_acusticas(df_2))}")
 print(f"  - Candidatas PL3 ao vivo: {len(filtrar_pl3_aovivo(df_2))}")
 print(f"  - Candidatas PL4: {len(filtrar_pl4(df_2))}")
+
+import random
+random.seed(42)
+
+from src.carrega_dados import carregar_dataset
+from src.heuristica_construtiva import heuristica_construtiva
+from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade
+
+df = carregar_dataset()
+solucao, disponiveis = heuristica_construtiva(df)
+pop_total = calcular_popularidade(solucao, df)
+
+print("=" * 60)
+print("HEURÍSTICA CONSTRUTIVA — SOLUÇÃO INICIAL")
+print("=" * 60)
+
+for pl, ids in solucao.items():
+    musicas = df[df['track_id'].isin(ids)]
+    dur_min = musicas['duration_ms'].sum() / 60000
+    pop_pl  = musicas['popularity'].sum()
+    print(f"\n{pl}: {len(ids)} músicas | {dur_min:.2f} min | popularidade = {pop_pl}")
+    for _, row in musicas.sort_values('popularity', ascending=False).iterrows():
+        print(f"  {row['track_name']:<45} | pop={row['popularity']:3d} | "
+              f"dur={row['duration_ms']/60000:.2f} min")
+
+print(f"\n{'='*60}")
+print(f"Popularidade total: {pop_total}")
+
+adm, msgs = verificar_admissibilidade(solucao, df)
+print(f"\nVerificação de admissibilidade:")
+for msg in msgs:
+    print(f"  {msg}")
