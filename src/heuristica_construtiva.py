@@ -74,35 +74,6 @@ def construir_pl2(df, ids_usados):
             ids_usados.add(row['track_id'])
         if duracao_atual >= DURACAO_MIN_MS:
             break
-
-        # Verificação explícita da danceability média
-    musicas_pl2 = df[df['track_id'].isin(playlist)]
-    media_dance = musicas_pl2['danceability'].mean()
-
-    if media_dance < 0.5:
-        # Substituir a música com menor danceability por uma
-        # com danceability alta que não esteja já usada
-        musica_fraca = musicas_pl2.nsmallest(1, 'danceability').iloc[0]
-        
-        candidatas_fix = filtrar_pl2(df)
-        candidatas_fix = candidatas_fix[
-            (~candidatas_fix['track_id'].isin(ids_usados)) &
-            (candidatas_fix['danceability'] >= 0.7)  # margem de segurança
-        ].sort_values('popularity', ascending=False)
-
-        for _, row in candidatas_fix.iterrows():
-            # Testar se a troca resolve o problema
-            ids_teste = [m for m in playlist if m != musica_fraca['track_id']] + [row['track_id']]
-            nova_media = df[df['track_id'].isin(ids_teste)]['danceability'].mean()
-            nova_dur = df[df['track_id'].isin(ids_teste)]['duration_ms'].sum()
-
-            if nova_media >= 0.5 and DURACAO_MIN_MS <= nova_dur <= DURACAO_MAX_MS:
-                # Fazer a troca
-                ids_usados.discard(musica_fraca['track_id'])
-                ids_usados.add(row['track_id'])
-                playlist = ids_teste
-                break
-
     return playlist
 
 
