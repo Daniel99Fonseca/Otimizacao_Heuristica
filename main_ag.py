@@ -1,7 +1,9 @@
 import random
 import time 
-random.seed(42)
+import numpy as np
 
+random.seed(42)
+np.random.seed(42)
 
 from src.carrega_dados import carregar_dataset
 from src.algoritmo_genetico import algoritmo_genetico
@@ -35,6 +37,9 @@ print(f"ALGORITMO GENÉTICO")
 print(f"População: {N_CROMOSSOMAS} | Gerações: {N_GERACOES} | "
       f"P(mutação): {PROB_MUTACAO} | Torneio k={K_TORNEIO}")
 print("=" * 60 + "\n")
+
+random.seed(42)             # ← adicionar
+np.random.seed(42)          # ← adicionar
 
 inicio_ag = time.time()
 melhor_solucao, melhor_pop = algoritmo_genetico(

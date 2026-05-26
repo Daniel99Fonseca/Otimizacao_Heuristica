@@ -1,6 +1,9 @@
 import random
 import time
+import numpy as np
+
 random.seed(42)
+np.random.seed(42)
 
 from src.carrega_dados import carregar_dataset
 from src.heuristica_construtiva import heuristica_construtiva
@@ -30,6 +33,9 @@ print("=" * 60)
 print("SIMULATED ANNEALING — Esquema do Enunciado")
 print(f"M = {M_ENUNCIADO} | Total iterações: {sum(M_ENUNCIADO)}")
 print("=" * 60)
+
+random.seed(42)
+np.random.seed(42)
 
 inicio_sa_enun = time.time()
 melhor_sol_1, melhor_pop_1 = simulated_annealing(
