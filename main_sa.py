@@ -52,6 +52,11 @@ print(f"\nVerificação de admissibilidade:")
 for msg in msgs_1:
     print(f"  {msg}")
 
+print(f"\nPopularidade por playlist:")
+for pl, ids in melhor_sol_1.items():
+    musicas = df[df['track_id'].isin(ids)]
+    print(f"  {pl}: {musicas['popularity'].sum()}")
+
 # ---------------------------------------------------------------
 # Executar SA com esquema alternativo (mais iterações)
 # ---------------------------------------------------------------
@@ -78,6 +83,11 @@ adm_2, msgs_2 = verificar_admissibilidade(melhor_sol_2, df)
 print(f"\nVerificação de admissibilidade:")
 for msg in msgs_2:
     print(f"  {msg}")
+
+print(f"\nPopularidade por playlist:")
+for pl, ids in melhor_sol_2.items():
+    musicas = df[df['track_id'].isin(ids)]
+    print(f"  {pl}: {musicas['popularity'].sum()}")
 
 # ---------------------------------------------------------------
 # Comparação final
