@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 
 # ============================================================
-# Módulo: simulated_annealing.py
-# Descrição: Alínea d) — Algoritmo Simulated Annealing.
 #
 # Esquema de arrefecimento definido no enunciado:
 #   M = [10, 10, 10, 5, 5]  → total de 40 iterações
@@ -30,22 +28,6 @@ M_ALTERNATIVO = [30, 30, 40, 50, 50, 40, 30]
 
 def simulated_annealing(solucao_inicial, df, musicas_disponiveis,
                         caminho_output, esquema_M=None):
-    """
-    Executa o algoritmo Simulated Annealing para maximizar a
-    popularidade total das playlists.
-
-    Parâmetros:
-        solucao_inicial    — dicionário com as 4 playlists (da heurística construtiva)
-        df                 — DataFrame com todas as músicas
-        musicas_disponiveis — lista de track_ids não usados na solução inicial
-        caminho_output     — caminho para o ficheiro CSV de log
-        esquema_M          — lista com nº de iterações por temperatura
-                             (usa M_ENUNCIADO se None)
-
-    Devolve:
-        melhor_solucao — melhor solução encontrada
-        melhor_pop     — popularidade total da melhor solução
-    """
     if esquema_M is None:
         esquema_M = M_ENUNCIADO
 

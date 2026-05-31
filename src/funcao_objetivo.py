@@ -1,11 +1,5 @@
 import pandas as pd
 
-# ============================================================
-# Módulo: funcao_objetivo.py
-# Descrição: Calcula o valor da função objetivo (popularidade
-#            total) e verifica a admissibilidade de uma solução.
-# ============================================================
-
 # Uma solução é representada como um dicionário de listas de track_ids:
 #
 # solucao = {
@@ -29,17 +23,6 @@ VALENCE_TOTAL_MIN = 7.0
 
 
 def calcular_popularidade(solucao, df):
-    """
-    Calcula a popularidade total de todas as músicas nas 4 playlists.
-    Esta é a função objetivo a MAXIMIZAR.
-
-    Parâmetros:
-        solucao: dicionário {'PL1': [...], 'PL2': [...], 'PL3': [...], 'PL4': [...]}
-        df: DataFrame com todas as músicas (índice deve ser track_id ou pesquisável)
-
-    Devolve:
-        Popularidade total (int)
-    """
     total = 0
     for playlist, ids in solucao.items():
         musicas = df[df['track_id'].isin(ids)]
@@ -52,10 +35,6 @@ def calcular_popularidade(solucao, df):
 # ------------------------------------------------------------------
 
 def verificar_duracao(ids, df):
-    """
-    Verifica se a duração total das músicas está entre 32 e 35 minutos.
-    Devolve (True/False, duração total em minutos)
-    """
     musicas = df[df['track_id'].isin(ids)]
     duracao_total_ms = musicas['duration_ms'].sum()
     duracao_min = duracao_total_ms / 60000
@@ -64,10 +43,6 @@ def verificar_duracao(ids, df):
 
 
 def verificar_pl1(ids, df):
-    """
-    PL1: todas as músicas devem ter instrumentalness >= 0.66
-    Devolve (True/False, mensagem)
-    """
     musicas = df[df['track_id'].isin(ids)]
     violacoes = musicas[musicas['instrumentalness'] < 0.66]
     if len(violacoes) > 0:
@@ -76,11 +51,6 @@ def verificar_pl1(ids, df):
 
 
 def verificar_pl2(ids, df):
-    """
-    PL2: cada música deve ter tempo >= 120 BPM
-         E a danceability média deve ser >= 0.5
-    Devolve (True/False, mensagem)
-    """
     musicas = df[df['track_id'].isin(ids)]
 
     # Verificação por música: tempo >= 120
@@ -97,11 +67,6 @@ def verificar_pl2(ids, df):
 
 
 def verificar_pl3(ids, df):
-    """
-    PL3: pelo menos 15 minutos de músicas acústicas (is_acoustic=True)
-         E pelo menos 4 músicas gravadas ao vivo (liveness > 0.8)
-    Devolve (True/False, mensagem)
-    """
     musicas = df[df['track_id'].isin(ids)]
 
     # Verificação das músicas acústicas (>= 15 min)
@@ -120,10 +85,6 @@ def verificar_pl3(ids, df):
 
 
 def verificar_pl4(ids, df):
-    """
-    PL4: valence total >= 7.0
-    Devolve (True/False, mensagem)
-    """
     musicas = df[df['track_id'].isin(ids)]
     valence_total = musicas['valence'].sum()
     if valence_total < VALENCE_TOTAL_MIN:
@@ -136,15 +97,6 @@ def verificar_pl4(ids, df):
 # ------------------------------------------------------------------
 
 def verificar_admissibilidade(solucao, df):
-    """
-    Verifica se uma solução completa é admissível.
-    Checa todas as restrições de todas as playlists, incluindo:
-      - Sem músicas repetidas entre playlists
-      - Duração entre 32 e 35 min em cada playlist
-      - Restrições específicas de cada playlist
-
-    Devolve (True/False, lista de mensagens de diagnóstico)
-    """
     mensagens = []
     admissivel = True
 
@@ -182,10 +134,6 @@ def verificar_admissibilidade(solucao, df):
     return admissivel, mensagens
 
 def guardar_melhor_solucao(solucao, df, caminho_output):
-    """
-    Guarda as músicas da melhor solução num CSV,
-    organizado por playlist, com as colunas relevantes.
-    """
     linhas = []
     for pl, ids in solucao.items():
         musicas = df[df['track_id'].isin(ids)]

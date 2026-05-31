@@ -10,11 +10,6 @@ from src.algoritmo_genetico import algoritmo_genetico
 from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade, guardar_melhor_solucao
 from src.heuristica_construtiva import heuristica_construtiva
 
-# ============================================================
-# main_ag.py — Script principal do Algoritmo Genético
-# Executar com: python main_ag.py
-# ============================================================
-
 # Parâmetros do AG
 N_CROMOSSOMAS = 20
 N_GERACOES    = 30
@@ -26,7 +21,7 @@ print("A carregar dataset...")
 df = carregar_dataset()
 print(f"Dataset: {len(df)} músicas\n")
 
-# Solução da heurística (para comparação)
+# Solução da heurística
 sol_heuristica, _ = heuristica_construtiva(df)
 pop_heuristica    = calcular_popularidade(sol_heuristica, df)
 print(f"Solução heurística construtiva — Popularidade: {pop_heuristica}\n")

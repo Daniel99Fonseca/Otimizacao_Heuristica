@@ -2,21 +2,14 @@ import random
 import pandas as pd
 
 # ============================================================
-# Módulo: vizinhanca.py
-# Descrição: Alínea c) — Define a estrutura de vizinhança
-#            de uma solução admissível.
 #
-# Definição de vizinhança:
-#   Dado que uma solução é um conjunto de 4 playlists, uma
-#   solução vizinha é obtida através de um de dois movimentos:
-#
-#   Movimento 1 — Substituição (swap com disponíveis):
+#   Movimento 1 Substituição:
 #     Seleciona aleatoriamente uma playlist e uma música dessa
 #     playlist, e substitui-a por uma música do pool de músicas
 #     disponíveis (não usadas), garantindo que a nova solução
 #     permanece admissível.
 #
-#   Movimento 2 — Troca inter-playlist (swap entre playlists):
+#   Movimento 2 Troca inter-playlist:
 #     Seleciona aleatoriamente duas playlists distintas e troca
 #     uma música de cada uma, garantindo que ambas as playlists
 #     permanecem admissíveis após a troca.
@@ -39,10 +32,6 @@ VERIFICADORES = {
 
 
 def verificar_playlist(nome_pl, ids, df):
-    """
-    Verifica se uma playlist é admissível (duração + restrição específica).
-    Devolve True se admissível, False caso contrário.
-    """
     ok_dur, _ = verificar_duracao(ids, df)
     if not ok_dur:
         return False
@@ -51,23 +40,6 @@ def verificar_playlist(nome_pl, ids, df):
 
 
 def movimento_substituicao(solucao, df, musicas_disponiveis, max_tentativas=200):
-    """
-    Movimento 1 — Substituição:
-    Remove uma música de uma playlist e substitui-a por uma música
-    do pool de disponíveis. A nova solução tem de ser admissível.
-
-    Parâmetros:
-        solucao            — dicionário com as 4 playlists
-        df                 — DataFrame com todas as músicas
-        musicas_disponiveis — lista de track_ids não usados
-        max_tentativas     — número máximo de tentativas antes de desistir
-
-    Devolve:
-        nova_solucao       — nova solução (ou a original se não encontrar vizinho)
-        novas_disponiveis  — pool actualizado
-        descricao          — texto descrevendo o movimento realizado
-        sucesso            — True se encontrou vizinho admissível
-    """
     import copy
 
     for _ in range(max_tentativas):
@@ -108,18 +80,6 @@ def movimento_substituicao(solucao, df, musicas_disponiveis, max_tentativas=200)
 
 
 def movimento_troca_interplaylist(solucao, df, musicas_disponiveis, max_tentativas=200):
-    """
-    Movimento 2 — Troca inter-playlist:
-    Troca uma música entre duas playlists distintas.
-    Ambas as playlists têm de permanecer admissíveis após a troca.
-
-    Nota: este movimento não altera o pool de disponíveis.
-
-    Devolve:
-        nova_solucao  — nova solução (ou a original se não encontrar vizinho)
-        descricao     — texto descrevendo o movimento realizado
-        sucesso       — True se encontrou vizinho admissível
-    """
     import copy
 
     playlists = ['PL1', 'PL2', 'PL3', 'PL4']
@@ -159,18 +119,6 @@ def movimento_troca_interplaylist(solucao, df, musicas_disponiveis, max_tentativ
 
 
 def gerar_vizinho(solucao, df, musicas_disponiveis):
-    """
-    Gera uma solução vizinha escolhendo aleatoriamente entre os
-    dois movimentos disponíveis (substituição ou troca inter-playlist).
-
-    Usada pelo Simulated Annealing em cada iteração.
-
-    Devolve:
-        nova_solucao       — solução vizinha gerada
-        novas_disponiveis  — pool actualizado
-        descricao          — descrição do movimento realizado
-        sucesso            — True se encontrou vizinho admissível
-    """
     # Escolher aleatoriamente qual o movimento a aplicar
     tipo_movimento = random.choice(['substituicao', 'troca'])
 

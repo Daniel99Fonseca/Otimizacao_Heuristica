@@ -10,12 +10,6 @@ from src.heuristica_construtiva import heuristica_construtiva
 from src.funcao_objetivo import calcular_popularidade, verificar_admissibilidade, guardar_melhor_solucao
 from src.simulated_annealing import simulated_annealing, M_ENUNCIADO, M_ALTERNATIVO
 
-
-# ============================================================
-# main_sa.py — Script principal do Simulated Annealing
-# Executar com: python main_sa.py
-# ============================================================
-
 # --- 1. Carregar dados ---
 print("A carregar dataset...")
 df = carregar_dataset()

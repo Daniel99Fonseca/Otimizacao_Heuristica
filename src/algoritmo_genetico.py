@@ -3,32 +3,31 @@ import copy
 import pandas as pd
 
 # ============================================================
-# Módulo: algoritmo_genetico.py
 # Descrição: Alínea e) — Algoritmo Genético.
 #
-# Codificação: cada cromossoma é um dicionário com as 4 playlists
-#   cromossoma = {'PL1': [ids], 'PL2': [ids], 'PL3': [ids], 'PL4': [ids]}
+# cada cromossoma é um dicionário com as 4 playlists
+# cromossoma = {'PL1': [ids], 'PL2': [ids], 'PL3': [ids], 'PL4': [ids]}
 #
-# População inicial: N soluções geradas pela heurística construtiva
-#   com candidatos baralháveis aleatoriamente (diversidade).
+# A população inicial tem N soluções geradas pela heurística construtiva
+# com candidatos baralháveis aleatoriamente para obter diversidade.
 #
-# Selecção: torneio de tamanho k — escolhem-se k cromossomas
-#   aleatoriamente e o vencedor é o de maior popularidade.
+# A selecção é feita através de um torneio de tamanho k: escolhem-se k cromossomas
+# aleatoriamente e o vencedor é o de maior popularidade.
 #
-# Crossover: crossover ao nível das playlists —
-#   o filho1 herda PL1+PL2 do pai1 e PL3+PL4 do pai2,
-#   o filho2 herda PL1+PL2 do pai2 e PL3+PL4 do pai1.
-#   Um mecanismo de reparação resolve conflitos (músicas repetidas).
+# Crossover: crossover ao nível das playlists:
+# o filho1 herda PL1+PL2 do pai1 e PL3+PL4 do pai2,
+# o filho2 herda PL1+PL2 do pai2 e PL3+PL4 do pai1.
+# Um mecanismo de reparação resolve conflitos (músicas repetidas).
 #
 # Mutação: com probabilidade prob_mutacao, aplica um movimento
-#   de substituição (do módulo vizinhança) ao cromossoma.
+# de substituição (do módulo vizinhança) ao cromossoma.
 #
-# Cromossomas não admissíveis: são reparados pelo mecanismo
-#   de reparação de conflitos após o crossover.
+# Cromossomas não admissíveis são reparados pelo mecanismo
+# de reparação de conflitos após o crossover.
 #
-# Substituição da população: modelo geracional — a nova geração
-#   substitui completamente a anterior, com elitismo (o melhor
-#   cromossoma da geração anterior é sempre preservado).
+# Substituição da população: a nova geração
+# substitui completamente a anterior, com elitismo (o melhor
+# cromossoma da geração anterior é sempre preservado).
 #
 # Critério de paragem: número máximo de gerações atingido.
 # ============================================================
@@ -50,12 +49,6 @@ from src.carrega_dados import (
 # ------------------------------------------------------------------
 
 def gerar_cromossoma(df):
-    """
-    Gera um cromossoma admissível usando a heurística construtiva,
-    mas com os candidatos de cada playlist baralháveis aleatoriamente
-    para introduzir diversidade na população inicial.
-    Devolve (cromossoma, musicas_disponiveis).
-    """
     ids_usados = set()
 
     def candidatos_baralhados(df_filtrado, top_n=500):
@@ -77,10 +70,6 @@ def gerar_cromossoma(df):
 
 
 def construir_pl3_ag(df, ids_usados):
-    """
-    Versão da construção PL3 para o AG (recebe df completo).
-    Lógica igual à do módulo heuristica_construtiva.
-    """
     candidatas_aovivo    = filtrar_pl3_aovivo(df).sort_values('popularity', ascending=False)
     candidatas_acusticas = filtrar_pl3_acusticas(df).sort_values('popularity', ascending=False)
 
@@ -128,10 +117,6 @@ def construir_pl3_ag(df, ids_usados):
 
 
 def gerar_populacao_inicial(df, n_cromossomas):
-    """
-    Gera a população inicial com n_cromossomas soluções admissíveis.
-    Devolve uma lista de tuplos (cromossoma, musicas_disponiveis).
-    """
     populacao = []
     for _ in range(n_cromossomas):
         cromossoma, disponiveis = gerar_cromossoma(df)
@@ -154,16 +139,6 @@ def selecionar_pai(populacao, aptidoes, k=5):
 # ------------------------------------------------------------------
 
 def reparar_conflitos(cromossoma, df):
-    """
-    Após o crossover, uma música pode aparecer em mais do que uma
-    playlist. Este mecanismo de reparação:
-      1. Detecta músicas duplicadas entre playlists
-      2. Remove os duplicados (mantém na primeira playlist onde aparece)
-      3. Repõe músicas em playlists curtas (< 32 min), usando apenas
-         candidatas que satisfazem as restrições específicas da playlist.
-    Devolve o cromossoma reparado e o pool de disponíveis actualizado.
-    Garante que os filhos gerados pelo crossover são admissíveis.
-    """
     from src.funcao_objetivo import (
         verificar_pl1, verificar_pl2, verificar_pl3, verificar_pl4
     )
@@ -190,7 +165,7 @@ def reparar_conflitos(cromossoma, df):
         'PL4': verificar_pl4,
     }
 
-    # 1. Detectar e resolver duplicados
+    # Detectar e resolver duplicados
     contagem = {}
     for pl, ids in cromossoma.items():
         for mid in ids:
@@ -201,12 +176,12 @@ def reparar_conflitos(cromossoma, df):
         for pl_remover in pls[1:]:
             cromossoma[pl_remover] = [m for m in cromossoma[pl_remover] if m != mid]
 
-    # 2. Reconstruir pool de disponíveis
+    # Reconstruir pool de disponíveis
     ids_usados  = set(mid for ids in cromossoma.values() for mid in ids)
     disponiveis_df = df[~df['track_id'].isin(ids_usados)].sort_values('popularity', ascending=False)
 
-    # 3. Repor músicas em playlists que ficaram curtas,
-    #    garantindo que as restrições específicas são respeitadas
+    # Repor músicas em playlists que ficaram curtas,
+    # garantindo que as restrições específicas são respeitadas
     for pl in ['PL1', 'PL2', 'PL3', 'PL4']:
         ids_pl     = cromossoma[pl]
         duracao_ms = df[df['track_id'].isin(ids_pl)]['duration_ms'].sum()
@@ -237,24 +212,15 @@ def reparar_conflitos(cromossoma, df):
                 duracao_ms += row['duration_ms']
 
         cromossoma[pl] = ids_pl
-        # Actualizar o DataFrame de disponíveis após cada playlist
         disponiveis_df = df[~df['track_id'].isin(ids_usados)].sort_values('popularity', ascending=False)
 
-    # 4. Pool final actualizado
+    # final atualizado
     ids_usados  = set(mid for ids in cromossoma.values() for mid in ids)
     disponiveis = list(df[~df['track_id'].isin(ids_usados)]['track_id'])
 
     return cromossoma, disponiveis
 
 def crossover(pai1_tuplo, pai2_tuplo, df):
-    """
-    Crossover ao nível das playlists (ponto de corte entre PL2 e PL3):
-    filho1 herda PL1+PL2 do pai1 e PL3+PL4 do pai2
-    filho2 herda PL1+PL2 do pai2 e PL3+PL4 do pai1
-    Após o cruzamento, aplica reparação de conflitos.
-    Devolve dois filhos como tuplos (cromossoma, disponiveis).
-    """
-    
     pai1, _ = pai1_tuplo
     pai2, _ = pai2_tuplo
 
@@ -277,11 +243,6 @@ def crossover(pai1_tuplo, pai2_tuplo, df):
 # ------------------------------------------------------------------
 
 def mutacao(cromossoma_tuplo, df, prob_mutacao):
-    """
-    Operador de mutação: com probabilidade prob_mutacao, aplica
-    um movimento de substituição (reutiliza a vizinhança do SA).
-    Devolve o cromossoma (possivelmente mutado) e o pool actualizado.
-    """
     cromossoma, disponiveis = cromossoma_tuplo
 
     if random.random() < prob_mutacao:
@@ -300,21 +261,6 @@ def mutacao(cromossoma_tuplo, df, prob_mutacao):
 
 def algoritmo_genetico(df, n_cromossomas, n_geracoes, prob_mutacao,
                        caminho_output, k_torneio=5):
-    """
-    Executa o Algoritmo Genético completo.
-
-    Parâmetros:
-        df             — DataFrame com todas as músicas
-        n_cromossomas  — dimensão da população
-        n_geracoes     — número de gerações (critério de paragem)
-        prob_mutacao   — probabilidade de mutação (ex: 0.1)
-        caminho_output — caminho para o ficheiro CSV de log
-        k_torneio      — tamanho do torneio na selecção
-
-    Devolve:
-        melhor_solucao — melhor solução encontrada
-        melhor_pop     — popularidade total da melhor solução
-    """
     print(f"AG iniciado | População: {n_cromossomas} | Gerações: {n_geracoes} | "
           f"P(mutação): {prob_mutacao} | k_torneio: {k_torneio}")
 

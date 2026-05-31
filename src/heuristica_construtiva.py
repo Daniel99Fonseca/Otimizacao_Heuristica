@@ -16,22 +16,12 @@ from src.carrega_dados import (
 # de duração (32-35 min). Músicas já usadas numa playlist não
 # podem ser usadas noutra.
 #
-# Ordem de construção:
-#   1. PL1 — mais restritiva em termos de instrumentalness
-#   2. PL2 — restrita por tempo e danceability
-#   3. PL3 — a mais complexa: requer músicas acústicas E ao vivo
-#   4. PL4 — requer valence total elevado
-# ============================================================
 
 DURACAO_MIN_ACUSTICAS_MS = 15 * 60 * 1000  # 15 minutos em ms
 MIN_MUSICAS_AOVIVO = 4
 
 
 def construir_pl1(df, ids_usados):
-    """
-    Constrói a PL1: seleciona músicas com instrumentalness >= 0.66,
-    ordenadas por popularidade descendente, até atingir 32-35 min.
-    """
     candidatas = filtrar_pl1(df).sort_values('popularity', ascending=False)
 
     playlist = []
@@ -53,13 +43,6 @@ def construir_pl1(df, ids_usados):
 
 
 def construir_pl2(df, ids_usados):
-    """
-    Constrói a PL2: seleciona músicas com tempo >= 120 BPM,
-    ordenadas por popularidade descendente, até atingir 32-35 min.
-    A danceability média >= 0.5 é verificada a posteriori —
-    dado que a média do pool PL2 é 0.562, é expectável que
-    a restrição seja satisfeita naturalmente.
-    """
     candidatas = filtrar_pl2(df).sort_values('popularity', ascending=False)
 
     playlist = []
@@ -78,20 +61,6 @@ def construir_pl2(df, ids_usados):
 
 
 def construir_pl3(df, ids_usados):
-    """
-    Constrói a PL3: a mais complexa, com duas sub-restrições.
-
-    Estratégia de construção (por fases):
-      Fase 1 — Garantir >= 4 músicas ao vivo (liveness > 0.8),
-               ordenadas por popularidade descendente.
-      Fase 2 — Garantir >= 15 min de músicas acústicas (is_acoustic),
-               ordenadas por popularidade descendente.
-               Nota: uma música pode satisfazer ambas as fases
-               simultaneamente (ao vivo E acústica).
-      Fase 3 — Completar a duração até [32, 35] min com qualquer
-               música por ordem de popularidade, sem restrições
-               adicionais (exceto não ser já usada).
-    """
     candidatas_aovivo   = filtrar_pl3_aovivo(df).sort_values('popularity', ascending=False)
     candidatas_acusticas = filtrar_pl3_acusticas(df).sort_values('popularity', ascending=False)
 
@@ -143,12 +112,6 @@ def construir_pl3(df, ids_usados):
 
 
 def construir_pl4(df, ids_usados):
-    """
-    Constrói a PL4: seleciona músicas com valence mais alto,
-    até atingir 32-35 min. A restrição é valence total >= 7.0.
-    Ordenar por valence descendente garante que atingimos
-    facilmente esse total.
-    """
     candidatas = filtrar_pl4(df)  # já ordenado por valence desc
 
     playlist = []
@@ -168,15 +131,6 @@ def construir_pl4(df, ids_usados):
 
 
 def heuristica_construtiva(df):
-    """
-    Constrói uma solução admissível para as 4 playlists usando
-    uma heurística greedy (critério: maximizar popularidade).
-
-    Devolve:
-        solucao           — dicionário {'PL1': [...], ..., 'PL4': [...]}
-        musicas_disponiveis — lista de track_ids não usados em nenhuma playlist
-                              (necessária para os algoritmos de pesquisa)
-    """
     ids_usados = set()
 
     pl3 = construir_pl3(df, ids_usados)

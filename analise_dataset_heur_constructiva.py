@@ -1,8 +1,3 @@
-# ============================================================
-# analise_dataset.py — Exploração inicial do dataset
-# Executar com: python analise_dataset.py
-# ============================================================
-
 import pandas as pd
 import os
 
